@@ -140,10 +140,10 @@
 	 1.增加 WebViewJavascriptBridge 支持，增加JavaScript <-> Objective-C 交互;</br>
 	 2.Block 方式回调封装;</br>
 	 3.Cookie缓存同步机制等</br>
-* **2016.09.18(tag:0.2.5)--**</br>
+* **2016.09.18(tag:0.2.5):**</br>
   1.根据系统版本自动切换WK/UI-WebView,</br>
   2.功能性封装。</br>
-* **2016.08.26(tag:0.1.0)--**</br>
+* **2016.08.26(tag:0.1.0):**</br>
   1.创建手动的 WebView 切换工具。</br>
 
 ## 联系方式:
