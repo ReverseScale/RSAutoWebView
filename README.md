@@ -2,7 +2,7 @@
 
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/79072301.jpg)
 
-![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/cocoapods/dt/PPNetworkHelper.svg
+![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/badge/download-512K-brightgreen.svg
 ) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 针对 iOS 不同版本下 WebView 的碎片化，进行整理封装，主要功能是根据系统版本自动选择 UI/WK-WebView 进行加载。同时使用 Block 方式封装常见的 JavaScript <-> Objective-C的交互、滑动至顶部功能、扩展脚本、针对 WKWebView 和 UIWebView 的 Cookie 等缓存互通、内容渲染干预等功能。
