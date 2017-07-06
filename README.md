@@ -10,7 +10,10 @@
 
 ### 我的技术博客：https://reversescale.github.io ~欢迎来踩
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/42455761.jpg)
+| 名称 |1.列表页 |2.展示页 |3.清除缓存页|
+| ------------- | ------------- | ------------- | ------------- |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12924350.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/96079526.jpg) |
+| 描述 | 自动适配WebView |  | 清除缓存操作 |
 
 ## Requirements 要求
 * iOS 7+
@@ -134,7 +137,7 @@
 
 使用简单、效率高效、进程安全~~~如果你有更好的建议,希望不吝赐教!
 ### 你的star是我持续更新的动力!
-===
+
 ## CocoaPods更新日志
 * **2017.04.10(tag:0.8.0):** </br>
 	 1.增加 WebViewJavascriptBridge 支持，增加JavaScript <-> Objective-C 交互;</br>
