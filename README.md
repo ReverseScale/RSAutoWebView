@@ -13,7 +13,7 @@
 | 名称 |1.列表页 |2.展示页 |3.清除缓存页|
 | ------------- | ------------- | ------------- | ------------- |
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12924350.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/96079526.jpg) |
-| 描述 | 自动适配WebView |  | 清除缓存操作 |
+| 描述 | 通过 Main.storyboard 创建 | 自动适配WebView | 清除缓存操作 |
 
 ## Requirements 要求
 * iOS 7+
