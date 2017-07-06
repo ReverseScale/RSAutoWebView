@@ -10,6 +10,8 @@
 #import "QZBaseWebViewController.h"
 #import "RSWKCookieSyncManager.h"
 
+#import <SVProgressHUD.h>
+
 @interface TableViewController ()
 @property (nonatomic, strong)QZBaseWebViewController *webView;
 
@@ -29,7 +31,7 @@
 // 跳转WebView
 - (void)gotoWebView {
     self.webView = [QZBaseWebViewController new];
-    
+    self.webView.title = @"WebView";
     [self.webView loadWebViewWithURL:@"https://pan.baidu.com" autoChoose:NO ifCloseAutoChooseUsingUIWebView:YES];
     
     // 1.WebView代理
@@ -53,6 +55,7 @@
 }
 // 清理缓存
 - (void)clear {
+    [SVProgressHUD showSuccessWithStatus:@"清理缓存成功"];
     [self.webView clearCache];
 }
 

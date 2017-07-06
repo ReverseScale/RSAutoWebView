@@ -7,8 +7,7 @@
 //
 
 #import "QZBaseViewController.h"
-#import "WebViewJavascriptBridge.h"
-#import "WKWebViewJavascriptBridge.h"
+#import <WebViewJavascriptBridge.h>
 #import "RSAutoWebView.h"
 
 @interface QZBaseWebViewController : QZBaseViewController<RSAutoWebViewDelegate>

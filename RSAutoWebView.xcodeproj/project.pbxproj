@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09C13EAED6FBAB52CBED6A75 /* libPods-RSAutoWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3895C26EAD8258FE864678 /* libPods-RSAutoWebView.a */; };
 		34466A3C1EEA89C9005FF082 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34466A3B1EEA89C9005FF082 /* main.m */; };
 		34466A3F1EEA89C9005FF082 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34466A3E1EEA89C9005FF082 /* AppDelegate.m */; };
 		34466A421EEA89C9005FF082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34466A411EEA89C9005FF082 /* ViewController.m */; };
@@ -16,16 +17,14 @@
 		34466A551EEA89CA005FF082 /* RSAutoWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34466A541EEA89CA005FF082 /* RSAutoWebViewTests.m */; };
 		34466A601EEA89CA005FF082 /* RSAutoWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34466A5F1EEA89CA005FF082 /* RSAutoWebViewUITests.m */; };
 		34466A881EEA994B005FF082 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34466A871EEA994B005FF082 /* WebKit.framework */; };
-		344DA0B91EF2A45000565524 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 344DA0B21EF2A45000565524 /* WebViewJavascriptBridge.m */; };
-		344DA0BA1EF2A45000565524 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 344DA0B41EF2A45000565524 /* WebViewJavascriptBridge_JS.m */; };
-		344DA0BB1EF2A45000565524 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 344DA0B61EF2A45000565524 /* WebViewJavascriptBridgeBase.m */; };
-		344DA0BC1EF2A45000565524 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 344DA0B81EF2A45000565524 /* WKWebViewJavascriptBridge.m */; };
 		34B53F4A1F0E2DA400B83901 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B53F491F0E2DA400B83901 /* TableViewController.m */; };
 		34DCADEE1F06204B0034F681 /* RSAutoWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADE81F06204B0034F681 /* RSAutoWebView.m */; };
 		34DCADEF1F06204B0034F681 /* RSWKCookieSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADEA1F06204B0034F681 /* RSWKCookieSyncManager.m */; };
 		34DCADF01F06204B0034F681 /* RSUWWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADED1F06204B0034F681 /* RSUWWebViewProgress.m */; };
 		34DCADF61F0620680034F681 /* QZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADF31F0620680034F681 /* QZBaseViewController.m */; };
 		34DCADF71F0620680034F681 /* QZBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADF51F0620680034F681 /* QZBaseWebViewController.m */; };
+		706B00AC8877639E31F694D0 /* libPods-RSAutoWebViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A20C45A404674004D8FEA7A /* libPods-RSAutoWebViewUITests.a */; };
+		D9432DBCD7E753089E6030D9 /* libPods-RSAutoWebViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F07D40D75A602CC5E9BE3679 /* libPods-RSAutoWebViewTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D3895C26EAD8258FE864678 /* libPods-RSAutoWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSAutoWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA72C7F6CC8792F7604B6E7 /* Pods-RSAutoWebViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAutoWebViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSAutoWebViewTests/Pods-RSAutoWebViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F53A89590FF024F80E82289 /* Pods-RSAutoWebViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAutoWebViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSAutoWebViewTests/Pods-RSAutoWebViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		34466A371EEA89C9005FF082 /* RSAutoWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSAutoWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34466A3B1EEA89C9005FF082 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34466A3D1EEA89C9005FF082 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,14 +65,6 @@
 		34466A5F1EEA89CA005FF082 /* RSAutoWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAutoWebViewUITests.m; sourceTree = "<group>"; };
 		34466A611EEA89CA005FF082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34466A871EEA994B005FF082 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		344DA0B11EF2A45000565524 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		344DA0B21EF2A45000565524 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		344DA0B31EF2A45000565524 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
-		344DA0B41EF2A45000565524 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
-		344DA0B51EF2A45000565524 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		344DA0B61EF2A45000565524 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		344DA0B71EF2A45000565524 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		344DA0B81EF2A45000565524 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		34B53F481F0E2DA400B83901 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		34B53F491F0E2DA400B83901 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		34DCADE71F06204B0034F681 /* RSAutoWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAutoWebView.h; sourceTree = "<group>"; };
@@ -83,6 +77,12 @@
 		34DCADF31F0620680034F681 /* QZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZBaseViewController.m; sourceTree = "<group>"; };
 		34DCADF41F0620680034F681 /* QZBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZBaseWebViewController.h; sourceTree = "<group>"; };
 		34DCADF51F0620680034F681 /* QZBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZBaseWebViewController.m; sourceTree = "<group>"; };
+		497F97AD4902D7F994EFEF6A /* Pods-RSAutoWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAutoWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSAutoWebView/Pods-RSAutoWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		7067E46E63B1ACF5E406875A /* Pods-RSAutoWebViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAutoWebViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSAutoWebViewUITests/Pods-RSAutoWebViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A20C45A404674004D8FEA7A /* libPods-RSAutoWebViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSAutoWebViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73D7D40C5E24E90E1E5F338 /* Pods-RSAutoWebViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAutoWebViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSAutoWebViewUITests/Pods-RSAutoWebViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C28BE0F9CB84CE5785265CD8 /* Pods-RSAutoWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAutoWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSAutoWebView/Pods-RSAutoWebView.release.xcconfig"; sourceTree = "<group>"; };
+		F07D40D75A602CC5E9BE3679 /* libPods-RSAutoWebViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSAutoWebViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34466A881EEA994B005FF082 /* WebKit.framework in Frameworks */,
+				09C13EAED6FBAB52CBED6A75 /* libPods-RSAutoWebView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9432DBCD7E753089E6030D9 /* libPods-RSAutoWebViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,12 +107,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				706B00AC8877639E31F694D0 /* libPods-RSAutoWebViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		151487FF80F98DD94857630B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				497F97AD4902D7F994EFEF6A /* Pods-RSAutoWebView.debug.xcconfig */,
+				C28BE0F9CB84CE5785265CD8 /* Pods-RSAutoWebView.release.xcconfig */,
+				2F53A89590FF024F80E82289 /* Pods-RSAutoWebViewTests.debug.xcconfig */,
+				2EA72C7F6CC8792F7604B6E7 /* Pods-RSAutoWebViewTests.release.xcconfig */,
+				B73D7D40C5E24E90E1E5F338 /* Pods-RSAutoWebViewUITests.debug.xcconfig */,
+				7067E46E63B1ACF5E406875A /* Pods-RSAutoWebViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		34466A2E1EEA89C9005FF082 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +135,7 @@
 				34466A5E1EEA89CA005FF082 /* RSAutoWebViewUITests */,
 				34466A381EEA89C9005FF082 /* Products */,
 				34466A861EEA994B005FF082 /* Frameworks */,
+				151487FF80F98DD94857630B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,7 +152,6 @@
 		34466A391EEA89C9005FF082 /* RSAutoWebView */ = {
 			isa = PBXGroup;
 			children = (
-				344DA0B01EF2A45000565524 /* WebViewJavascriptBridge */,
 				34DCADE61F06204B0034F681 /* RSAutoWebView */,
 				34466A3D1EEA89C9005FF082 /* AppDelegate.h */,
 				34466A3E1EEA89C9005FF082 /* AppDelegate.m */,
@@ -183,23 +199,11 @@
 			isa = PBXGroup;
 			children = (
 				34466A871EEA994B005FF082 /* WebKit.framework */,
+				2D3895C26EAD8258FE864678 /* libPods-RSAutoWebView.a */,
+				F07D40D75A602CC5E9BE3679 /* libPods-RSAutoWebViewTests.a */,
+				7A20C45A404674004D8FEA7A /* libPods-RSAutoWebViewUITests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		344DA0B01EF2A45000565524 /* WebViewJavascriptBridge */ = {
-			isa = PBXGroup;
-			children = (
-				344DA0B11EF2A45000565524 /* WebViewJavascriptBridge.h */,
-				344DA0B21EF2A45000565524 /* WebViewJavascriptBridge.m */,
-				344DA0B31EF2A45000565524 /* WebViewJavascriptBridge_JS.h */,
-				344DA0B41EF2A45000565524 /* WebViewJavascriptBridge_JS.m */,
-				344DA0B51EF2A45000565524 /* WebViewJavascriptBridgeBase.h */,
-				344DA0B61EF2A45000565524 /* WebViewJavascriptBridgeBase.m */,
-				344DA0B71EF2A45000565524 /* WKWebViewJavascriptBridge.h */,
-				344DA0B81EF2A45000565524 /* WKWebViewJavascriptBridge.m */,
-			);
-			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 		34DCADE61F06204B0034F681 /* RSAutoWebView */ = {
@@ -241,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34466A641EEA89CA005FF082 /* Build configuration list for PBXNativeTarget "RSAutoWebView" */;
 			buildPhases = (
+				9C9C7B3BF8D40CE4A2D3ED9D /* [CP] Check Pods Manifest.lock */,
 				34466A331EEA89C9005FF082 /* Sources */,
 				34466A341EEA89C9005FF082 /* Frameworks */,
 				34466A351EEA89C9005FF082 /* Resources */,
+				FF27842061697639DF78AA8B /* [CP] Embed Pods Frameworks */,
+				FBD370089280BE343D1FFA95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34466A671EEA89CA005FF082 /* Build configuration list for PBXNativeTarget "RSAutoWebViewTests" */;
 			buildPhases = (
+				A5697F3A8CA6E62B6CE2E497 /* [CP] Check Pods Manifest.lock */,
 				34466A4C1EEA89CA005FF082 /* Sources */,
 				34466A4D1EEA89CA005FF082 /* Frameworks */,
 				34466A4E1EEA89CA005FF082 /* Resources */,
+				1B94AEEE54BAAD180412999B /* [CP] Embed Pods Frameworks */,
+				F870189B86EB2937A1792609 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34466A6A1EEA89CA005FF082 /* Build configuration list for PBXNativeTarget "RSAutoWebViewUITests" */;
 			buildPhases = (
+				992F286B3287EA22DE67B8FB /* [CP] Check Pods Manifest.lock */,
 				34466A571EEA89CA005FF082 /* Sources */,
 				34466A581EEA89CA005FF082 /* Frameworks */,
 				34466A591EEA89CA005FF082 /* Resources */,
+				2E955D96C350F0AE431DAA17 /* [CP] Embed Pods Frameworks */,
+				F15C555CB44709B52BF65C0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -363,6 +376,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B94AEEE54BAAD180412999B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebViewTests/Pods-RSAutoWebViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E955D96C350F0AE431DAA17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebViewUITests/Pods-RSAutoWebViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		992F286B3287EA22DE67B8FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9C7B3BF8D40CE4A2D3ED9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5697F3A8CA6E62B6CE2E497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F15C555CB44709B52BF65C0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebViewUITests/Pods-RSAutoWebViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F870189B86EB2937A1792609 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebViewTests/Pods-RSAutoWebViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD370089280BE343D1FFA95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebView/Pods-RSAutoWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF27842061697639DF78AA8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebView/Pods-RSAutoWebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34466A331EEA89C9005FF082 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -370,14 +521,10 @@
 			files = (
 				34DCADEE1F06204B0034F681 /* RSAutoWebView.m in Sources */,
 				34466A421EEA89C9005FF082 /* ViewController.m in Sources */,
-				344DA0B91EF2A45000565524 /* WebViewJavascriptBridge.m in Sources */,
 				34DCADF61F0620680034F681 /* QZBaseViewController.m in Sources */,
 				34DCADF01F06204B0034F681 /* RSUWWebViewProgress.m in Sources */,
-				344DA0BC1EF2A45000565524 /* WKWebViewJavascriptBridge.m in Sources */,
-				344DA0BB1EF2A45000565524 /* WebViewJavascriptBridgeBase.m in Sources */,
 				34B53F4A1F0E2DA400B83901 /* TableViewController.m in Sources */,
 				34DCADEF1F06204B0034F681 /* RSWKCookieSyncManager.m in Sources */,
-				344DA0BA1EF2A45000565524 /* WebViewJavascriptBridge_JS.m in Sources */,
 				34466A3F1EEA89C9005FF082 /* AppDelegate.m in Sources */,
 				34466A3C1EEA89C9005FF082 /* main.m in Sources */,
 				34DCADF71F0620680034F681 /* QZBaseWebViewController.m in Sources */,
@@ -527,6 +674,7 @@
 		};
 		34466A651EEA89CA005FF082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497F97AD4902D7F994EFEF6A /* Pods-RSAutoWebView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
@@ -540,6 +688,7 @@
 		};
 		34466A661EEA89CA005FF082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28BE0F9CB84CE5785265CD8 /* Pods-RSAutoWebView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7QT42R489Z;
@@ -553,6 +702,7 @@
 		};
 		34466A681EEA89CA005FF082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F53A89590FF024F80E82289 /* Pods-RSAutoWebViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RSAutoWebViewTests/Info.plist;
@@ -565,6 +715,7 @@
 		};
 		34466A691EEA89CA005FF082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA72C7F6CC8792F7604B6E7 /* Pods-RSAutoWebViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RSAutoWebViewTests/Info.plist;
@@ -577,6 +728,7 @@
 		};
 		34466A6B1EEA89CA005FF082 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73D7D40C5E24E90E1E5F338 /* Pods-RSAutoWebViewUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RSAutoWebViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -588,6 +740,7 @@
 		};
 		34466A6C1EEA89CA005FF082 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7067E46E63B1ACF5E406875A /* Pods-RSAutoWebViewUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RSAutoWebViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
