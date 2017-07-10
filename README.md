@@ -8,8 +8,6 @@
 针对 iOS 不同版本下 WebView 的碎片化，进行整理封装，主要功能是根据系统版本自动选择 UI/WK-WebView 进行加载。同时使用 Block 方式封装常见的 JavaScript <-> Objective-C的交互、滑动至顶部功能、扩展脚本、针对 WKWebView 和 UIWebView 的 Cookie 等缓存互通、内容渲染干预等功能。
 无需设置,无需插件,可创建基类继承管理全局WebView页面。
 
-### 我的技术博客：https://reversescale.github.io ~欢迎来踩
-
 | 名称 |1.列表页 |2.展示页 |3.清除缓存页|
 | ------------- | ------------- | ------------- | ------------- |
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12924350.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/96079526.jpg) |
@@ -149,9 +147,13 @@
 * **2016.08.26(tag:0.1.0):**</br>
   1.创建手动的 WebView 切换工具。</br>
 
-## 联系方式:
+## License 许可证
+OrderedDictionaryTools 使用 MIT 许可证，详情见 LICENSE 文件。
+
+
+## Contact 联系方式:
 * WeChat : WhatsXie
 * Email : ReverseScale@iCloud.com
-* QQ : 1129998515
+* Blog : https://reversescale.github.io
 
 
