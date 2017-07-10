@@ -148,7 +148,7 @@
   1.创建手动的 WebView 切换工具。</br>
 
 ## License 许可证
-OrderedDictionaryTools 使用 MIT 许可证，详情见 LICENSE 文件。
+RSAutoWebView 使用 MIT 许可证，详情见 LICENSE 文件。
 
 
 ## Contact 联系方式:
