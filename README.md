@@ -13,6 +13,13 @@
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12924350.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/96079526.jpg) |
 | 描述 | 通过 Main.storyboard 创建 | 自动适配WebView | 清除缓存操作 |
 
+## Advantage 框架的优势
+* 1.文件少，代码简洁
+* 2.根据系统版本自动选择使用 UI/WK WebView，提升用户体验
+* 3.同时支持 WebView Delegate 系统回调和 WebViewJavascriptBridge 库回调
+* 4.结构架构优良，可通过基类集中管理加载页面
+* 5.具备较高自定义性
+
 ## Requirements 要求
 * iOS 7+
 * Xcode 8+
