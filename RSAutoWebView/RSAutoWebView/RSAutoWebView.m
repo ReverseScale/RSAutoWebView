@@ -144,8 +144,8 @@
         return nil;
     }
 }
-#pragma mark - UIWebViewDelegate
 
+#pragma mark - UIWebViewDelegate
 - (void)webViewDidFinishLoad:(UIWebView*)webView {
     self.title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
     if (self.originRequest == nil) {
@@ -166,6 +166,7 @@
 - (void)webViewProgress:(RSUWWebViewProgress*)webViewProgress updateProgress:(CGFloat)progress {
     self.estimatedProgress = progress;
 }
+
 #pragma mark - WKNavigationDelegate
 - (void)webView:(WKWebView*)webView decidePolicyForNavigationAction:(WKNavigationAction*)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
     BOOL resultBOOL = [self callback_webViewShouldStartLoadWithRequest:navigationAction.request navigationType:navigationAction.navigationType];
@@ -193,9 +194,9 @@
 - (void)webView:(WKWebView*)webView didFailNavigation:(WKNavigation*)navigation withError:(NSError*)error {
     [self callback_webViewDidFailLoadWithError:error];
 }
+
 #pragma mark - WKUIDelegate
 #pragma mark - CALLBACK RSVKWebView Delegate
-
 - (void)callback_webViewDidFinishLoad {
     if ([self.delegate respondsToSelector:@selector(webViewDidFinishLoad:)]) {
         [self.delegate webViewDidFinishLoad:self];
