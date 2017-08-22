@@ -169,10 +169,13 @@ webVC.title = @"VAS·Sonic";
 ### 你的star是我持续更新的动力!
 
 ## CocoaPods更新日志
+* **2017.08.22(tag:0.9.0):** </br>
+	 1.整理基类开放方法，优化实现功能;</br>
+	 2.加入腾讯开源的 VasSonic 秒开 WebView 框架。</br>
 * **2017.04.10(tag:0.8.0):** </br>
 	 1.增加 WebViewJavascriptBridge 支持，增加JavaScript <-> Objective-C 交互;</br>
 	 2.Block 方式回调封装;</br>
-	 3.Cookie缓存同步机制等</br>
+	 3.Cookie 缓存同步机制等。</br>
 * **2016.09.18(tag:0.2.5):**</br>
   1.根据系统版本自动切换WK/UI-WebView,</br>
   2.功能性封装。</br>
