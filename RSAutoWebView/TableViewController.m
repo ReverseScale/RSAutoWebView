@@ -41,6 +41,7 @@ static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1"
 // 跳转 SonicWebView 页面
 - (void)openSonicWebView {
     SonicWebViewController *webVC = [[SonicWebViewController alloc]initWithUrl:testTencentURL useSonicMode:YES];
+    webVC.title = @"VAS·Sonic";
     [self.navigationController pushViewController:webVC animated:YES];
 }
 
