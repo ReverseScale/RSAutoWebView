@@ -25,37 +25,29 @@
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
-- (void)loadWebViewWithURL:(NSString *)url autoChoose:(BOOL)isOpen ifCloseAutoChooseUsingUIWebView:(BOOL)usingUIWebView {
-    if (isOpen) {
-        [self openAutoChoose];
-    } else {
-        [self chooseWebViewUsingUIWebView:usingUIWebView];
-    }
+- (void)loadWebViewWithURL:(NSString *)url {
+    [self chooseWebViewUsingUIWebView:[self isSupportWKWebView]];
+
     [self reloadRequest:url];
 }
 
-- (void)openAutoChoose {
-    if ([self getUsingUIWebView]) {
-        [self chooseWebViewUsingUIWebView:YES];
-    } else {
-        [self chooseWebViewUsingUIWebView:NO];
-    }
-}
 - (void)chooseWebViewUsingUIWebView:(BOOL)isUsingUIWebView {
     self.webView = [[RSAutoWebView alloc] initWithFrame:self.view.bounds usingUIWebView:isUsingUIWebView];
     [self setupWebViewJavascriptBridge];
     self.webView.delegate = self;
     [self.view addSubview:_webView];
 }
+
 - (void)reloadRequest:(NSString *)url {
     [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
 }
+
+// AutoWebView JavascriptBridge Delegate
 - (void)setupWebViewJavascriptBridge {
     [WebViewJavascriptBridge enableLogging];
     _bridge = [WebViewJavascriptBridge bridgeForWebView:_webView.realWebView];
     [_bridge setWebViewDelegate:self];
 }
-
 - (void)JSRegisterHandlerWithFuncName:(NSString *)name {
     [_bridge registerHandler:name handler:^(id data, WVJBResponseCallback responseCallback) {
         NSLog(@"testObjcCallback called: %@", data);
@@ -63,7 +55,6 @@
         self.javaScriptRegisterReturnBlock(data, responseCallback);
     }];
 }
-
 - (void)JSCallHandlerWithFuncName:(NSString *)name Data:(NSDictionary *)dicData {
     [_bridge callHandler:name data:dicData responseCallback:^(id response) {
         NSLog(@"testJavascriptHandler responded: %@", response);
@@ -71,6 +62,7 @@
     }];
 }
 
+// AutoWebView WebView Delegate
 - (void)webViewDidStartLoad:(RSAutoWebView*)webView {
     if (self.startLoadBlock) {
         self.startLoadBlock(_webView);
@@ -78,7 +70,6 @@
 }
 - (void)webViewDidFinishLoad:(RSAutoWebView*)webView {
     if (self.finishLoadBlock) {
-        
         self.finishLoadBlock(_webView);
     }
 }
@@ -99,13 +90,9 @@
     }
     [scrollView setContentOffset:CGPointMake(0, -64) animated:YES];
 }
-// 是否使用 UIWebView
-- (BOOL)getUsingUIWebView {
-    if (Version >= 8.0) {
-        return NO;
-    } else {
-        return YES;
-    }
+
+- (BOOL)isSupportWKWebView {
+   return Version >= 8.0 ? NO : YES;
 }
 // 图片适应 JavaScript 注入
 - (void)imgAutoFit {

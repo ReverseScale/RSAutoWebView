@@ -12,19 +12,11 @@
 
 @interface QZBaseWebViewController : QZBaseViewController<RSAutoWebViewDelegate>
 #pragma mark - 设置加载
-/* 
- * url    请求地址
- * isOpen 是否开启自动选择WebView功能
- *        是: usingUIWebView 设置无效
- *        否: usingUIWebView 设定是否使用 UIWebView
- */
-- (void)loadWebViewWithURL:(NSString *)url autoChoose:(BOOL)isOpen ifCloseAutoChooseUsingUIWebView:(BOOL)usingUIWebView;
+// url请求地址
+- (void)loadWebViewWithURL:(NSString *)url;
 
 
-#pragma mark - 参数、方法
-// URL地址
-@property (nonatomic,copy) NSString *url;
-
+#pragma mark - 其他方法
 // 加载URL方法
 - (void)reloadRequest:(NSString *)url;
 

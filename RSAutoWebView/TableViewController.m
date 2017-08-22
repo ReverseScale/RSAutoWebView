@@ -12,51 +12,48 @@
 
 #import <SVProgressHUD.h>
 
+// 腾讯VAS框架
+#import "Sonic.h"
+#import "SonicWebViewController.h"
+#import "SonicOfflineCacheConnection.h"
+
+static NSString *testAliYunURL = @"https://pan.baidu.com";
+static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1";
+
+
 @interface TableViewController ()
 @property (nonatomic, strong)QZBaseWebViewController *webView;
-
 @end
 
 @implementation TableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    // 预加载 
+    [self sonicPreload];
 }
-// 跳转WebView
-- (void)gotoWebView {
-    self.webView = [QZBaseWebViewController new];
+// 跳转 AutoWebView 页面
+- (void)openAutoWebView {
+    self.webView = [self createAutoWebViewWithURL:testAliYunURL isAutoChoose:YES];
     self.webView.title = @"WebView";
-    [self.webView loadWebViewWithURL:@"https://pan.baidu.com" autoChoose:NO ifCloseAutoChooseUsingUIWebView:YES];
-    
-    // 1.WebView代理
-    self.webView.finishLoadBlock = ^(id webView) {
-        NSLog(@"finishLoadBlock");
-        //创建设置cookie单例
-        RSWKCookieSyncManager *cookiesManager = [RSWKCookieSyncManager sharedWKCookieSyncManager];
-        //搬移cookies
-        [cookiesManager setCookie];
-        
-        NSLog(@"cookiesManager:%@ \n", cookiesManager.processPool);
-    };
-    
-    // 2.JS交互
-    [self.webView JSCallHandlerWithFuncName:@"testJavascriptHandler" Data:@{ @"greetingFromObjC": @"Hi there, JS!" }];
-    self.webView.javaScriptCallReturnBlock = ^(id response) {
-        NSLog(@"response:%@", response);
-    };
-    
     [self.navigationController pushViewController:self.webView animated:YES];
 }
+// 跳转 SonicWebView 页面
+- (void)openSonicWebView {
+    SonicWebViewController *webVC = [[SonicWebViewController alloc]initWithUrl:testTencentURL useSonicMode:YES];
+    [self.navigationController pushViewController:webVC animated:YES];
+}
+
 // 清理缓存
-- (void)clear {
-    [SVProgressHUD showSuccessWithStatus:@"清理缓存成功"];
+- (void)clearCache {
     [self.webView clearCache];
+    [[SonicClient sharedClient] clearAllCache];
+    [SVProgressHUD showSuccessWithStatus:@"清理缓存成功"];
+}
+
+// 可选：作缓存预加载
+- (void)sonicPreload {
+    [[SonicClient sharedClient] createSessionWithUrl:testTencentURL withWebDelegate:nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -68,75 +65,34 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0:
-            [self gotoWebView];
+            [self openAutoWebView];
+            break;
+        case 1:
+            [self openSonicWebView];
             break;
         default:
-            [self clear];
+            [self clearCache];
             break;
     }
 }
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-//#warning Incomplete implementation, return the number of sections
-//    return 0;
-//}
-//
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//#warning Incomplete implementation, return the number of rows
-//    return 0;
-//}
 
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+#pragma mark - create AutoWebView & Delegate
+- (QZBaseWebViewController *)createAutoWebViewWithURL:(NSString *)url isAutoChoose:(BOOL)isAuto {
+    QZBaseWebViewController *webView = [QZBaseWebViewController new];
+    [webView loadWebViewWithURL:url];
+    self.webView.finishLoadBlock = ^(id webView) {
+        NSLog(@"finishLoadBlock");
+        //创建设置cookie单例
+        RSWKCookieSyncManager *cookiesManager = [RSWKCookieSyncManager sharedWKCookieSyncManager];
+        //搬移cookies
+        [cookiesManager setCookie];
+        NSLog(@"cookiesManager:%@ \n", cookiesManager.processPool);
+    };
+    [self.webView JSCallHandlerWithFuncName:@"testJavascriptHandler" Data:@{ @"greetingFromObjC": @"Hi there, JS!" }];
+    self.webView.javaScriptCallReturnBlock = ^(id response) {
+        NSLog(@"response:%@", response);
+    };
     
-    // Configure the cell...
-    
-    return cell;
+    return webView;
 }
-*/
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end
