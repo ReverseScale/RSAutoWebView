@@ -10,7 +10,7 @@
 
 | 名称 |1.列表页 |2.AutoWebView 加载页 |3.VAS·Sonic 加载页|4.清除缓存页|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/29345693.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/3035790.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/96079526.jpg) |
+| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/29345693.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/3035790.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/2650558.jpg) |
 | 描述 | 通过 Main.storyboard 创建 | 自动适配的 AutoWebView 框架 | 腾讯的秒开 WebView 框架 | 清除缓存操作 |
 
 ## Advantage 框架的优势
@@ -138,6 +138,31 @@
 //registerHandler 【OC接收JS的消息】
 - (void)JSRegisterHandlerWithFuncName:(NSString *)name;
 @property (nonatomic,copy) void(^javaScriptRegisterReturnBlock)(id response, WVJBResponseCallback responseCallback);
+```
+
+### 3. 腾讯 VAS·Sonic 秒开 WebView框架
+#### 3.1 简介
+VasSonic 取名于索尼动画形象音速小子，是腾讯 QQ 会员 VAS 团队研发的一个轻量级的高性能的 Hybrid 框架，专注于提升页面首屏加载速度，完美支持静态直出页面和动态直出页面，兼容离线包等方案。目前 QQ 会员、QQ 购物、QQ 钱包、企鹅电竞等业务已经在使用，平均日均 PV 在 1.2 亿以上，并且这个数字还在快速增长。
+
+接入 VasSonic 后首次打开可以在初始化 APP 的时候并行请求页面资源，并且具备边加载边渲染的能力。非首次打开时，APP 可以快速加载上次打开动态缓存在本地的页面资源，然后动态刷新页面。腾讯手机 QQ 通过 VasSonic 框架使得页面首屏耗时平均低于 1S 以下。
+
+官方开源地址：https://github.com/Tencent/vassonic
+
+#### 3.2 基本方法
+引用头文件
+
+```
+// 腾讯VAS框架
+#import "Sonic.h"
+#import "SonicWebViewController.h"
+#import "SonicOfflineCacheConnection.h"
+```
+
+使用跳转方法
+```
+SonicWebViewController *webVC = [[SonicWebViewController alloc]initWithUrl:testTencentURL useSonicMode:YES];
+webVC.title = @"VAS·Sonic";
+[self.navigationController pushViewController:webVC animated:YES];
 ```
 
 使用简单、效率高效、进程安全~~~如果你有更好的建议,希望不吝赐教!
