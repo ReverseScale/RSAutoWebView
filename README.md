@@ -8,6 +8,8 @@
 针对 iOS 不同版本下 WebView 的碎片化，进行整理封装，主要功能是根据系统版本自动选择 UI/WK-WebView 进行加载。同时使用 Block 方式封装常见的 JavaScript <-> Objective-C的交互、滑动至顶部功能、扩展脚本、针对 WKWebView 和 UIWebView 的 Cookie 等缓存互通、内容渲染干预等功能。
 无需设置,无需插件,可创建基类继承管理全局WebView页面。
 
+*新增特征：加入腾讯 VAS·Sonic 技术，一种声称可以秒开 WebView 的框架。*
+
 | 名称 |1.列表页 |2.AutoWebView 加载页 |3.VAS·Sonic 加载页|4.清除缓存页|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/29345693.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/3035790.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/2650558.jpg) |
