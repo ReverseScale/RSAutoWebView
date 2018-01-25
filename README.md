@@ -9,19 +9,14 @@
 
 封装功能：
 
-1.Block 方式 JavaScript <-> Objective-C 的交互。
+* Block 方式 JavaScript <-> Objective-C 的交互。
+* 滑动至顶部功能
+* 扩展脚本
+* 针对 WKWebView 和 UIWebView 的 Cookie 等缓存互通
+* 内容渲染干预等
+* 新增特征：加入腾讯 VAS·Sonic 技术，一种声称可以秒开 WebView 的框架。
 
-2.滑动至顶部功能
-
-3.扩展脚本
-
-4.针对 WKWebView 和 UIWebView 的 Cookie 等缓存互通
-
-5.内容渲染干预等
-
-6.新增特征：加入腾讯 VAS·Sonic 技术，一种声称可以秒开 WebView 的框架。
-
-*无需设置,无需插件,可创建基类继承管理全局WebView页面。
+*无需设置,无需插件,可创建基类继承管理全局WebView页面。*
 
 | 名称 |1.列表页 |2.AutoWebView 加载页 |3.VAS·Sonic 加载页|4.清除缓存页|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
