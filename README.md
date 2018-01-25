@@ -8,6 +8,7 @@
 针对 iOS 不同版本下 WebView 的碎片化，进行整理封装，主要功能是根据系统版本自动选择 UI/WK-WebView 进行加载。
 
 封装功能：
+
 1.Block 方式 JavaScript <-> Objective-C 的交互。
 
 2.滑动至顶部功能
@@ -18,7 +19,7 @@
 
 5.内容渲染干预等
 
-6.新增特征：加入腾讯 VAS·Sonic 技术，一种声称可以秒开 WebView 的框架。*
+6.新增特征：加入腾讯 VAS·Sonic 技术，一种声称可以秒开 WebView 的框架。
 
 *无需设置,无需插件,可创建基类继承管理全局WebView页面。
 
