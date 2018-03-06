@@ -30,7 +30,7 @@ Package function:
 * 2. According to the system version automatically choose to use UI / WK WebView, enhance the user experience
 * 3. Support both WebView Delegate system callbacks and WebView JavaScriptBridge library callbacks
 * 4. The structure of the excellent structure, centralized management through the base class to load the page
-* 5. have a higher custom
+* 5. Have a higher custom
 
 ## 🤖 Requirements 
 * iOS 7+
