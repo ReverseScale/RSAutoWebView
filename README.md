@@ -20,10 +20,10 @@ Package function:
 * No need to set up, without plug-ins, to create a base class Inheritance Management Global WebView page. *
 
 ## 🎨 What does the test UI look like?
-| Name | 1. List Page | 2.AutoWebView Load Page | 3.VAS · Sonic Load Page | 4. Clear Cache Page |
-| ------------- | ------------- | ------------- | ------- ------ | ------------- |
+| Name |1. List Page |2.AutoWebView Load Page |3.VAS · Sonic Load Page|4. Clear Cache Page|
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | Screenshots | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/29345693.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/3035790.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/2650558.jpg) |
-| Description | Created by Main.storyboard | Auto-adapted AutoWebView Framework | Tencent's Seconds WebView Framework | Clear Cache Operations |
+| Description | Main.storyboard | Auto-adapted AutoWebView Framework | Tencent's Seconds WebView Framework | Clear Cache Operations |
 
 ## 🚀 Advantage
 * 1. Less documents, code concise
