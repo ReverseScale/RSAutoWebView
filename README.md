@@ -3,9 +3,8 @@
 ![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/badge/download-512K-brightgreen.svg
 ) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
-[EN](#Requirements) | [中文](#中文说明)
-
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/79072301.jpg)
+[EN](#Requirements) | [中文](#中文说明)
 
 For different versions of iOS WebView fragmentation, sorting package, the main function is based on the system version automatically select UI / WK-WebView to load.
 
