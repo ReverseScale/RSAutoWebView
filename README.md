@@ -1,5 +1,6 @@
 # RSAutoWebView
 
+[EN](#Requirements) | [中文](#中文说明)
 
 ![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/79072301.jpg)
 
