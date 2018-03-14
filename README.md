@@ -21,10 +21,10 @@ Package function:
 * No need to set up, without plug-ins, to create a base class Inheritance Management Global WebView page. *
 
 ## 🎨 What does the test UI look like?
-| Name |1. List Page |2.AutoWebView Load Page |3.VAS · Sonic Load Page|4. Clear Cache Page|
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Screenshots | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/29345693.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/3035790.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/2650558.jpg) |
-| Description | Main.storyboard | Auto-adapted AutoWebView Framework | Tencent's Seconds WebView Framework | Clear Cache Operations |
+|1. List Page |2.AutoWebView Load Page |3.VAS · Sonic Load Page|4. Clear Cache Page|
+| ------------- | ------------- | ------------- | ------------- |
+| ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/29345693.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/3035790.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/2650558.jpg) |
+| Main.storyboard | Auto-adapted AutoWebView Framework | Tencent's Seconds WebView Framework | Clear Cache Operations |
 
 ## 🚀 Advantage
 * 1. Less documents, code concise
@@ -224,10 +224,10 @@ RSAutoWebView uses a MIT license, as detailed in the LICENSE file.
 
 ## 🎨 测试 UI 样式
 
-| 名称 |1.列表页 |2.AutoWebView 加载页 |3.VAS·Sonic 加载页|4.清除缓存页|
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| 截图 | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/29345693.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/3035790.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/2650558.jpg) |
-| 描述 | 通过 Main.storyboard 创建 | 自动适配的 AutoWebView 框架 | 腾讯的秒开 WebView 框架 | 清除缓存操作 |
+|1.列表页 |2.AutoWebView 加载页 |3.VAS·Sonic 加载页|4.清除缓存页|
+| ------------- | ------------- | ------------- | ------------- |
+| ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/29345693.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-7-6/12523713.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/3035790.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/2650558.jpg) |
+| 通过 Main.storyboard 创建 | 自动适配的 AutoWebView 框架 | 腾讯的秒开 WebView 框架 | 清除缓存操作 |
 
 ## 🚀 框架的优势
 * 1.文件少，代码简洁
