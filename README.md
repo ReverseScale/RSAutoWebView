@@ -37,7 +37,15 @@ Package function:
 * iOS 7+
 * Xcode 8+
 
-## 🎯 Usage Usage
+### 🎯 Installation
+#### Install
+
+Please run in console
+```
+pod install --verbose --no-repo-update
+```
+
+## 🛠 Usage
 ### 1. RSAutoWebView wrapper method
 #### 1.1 Foreign methods
 ```objc
@@ -240,7 +248,15 @@ RSAutoWebView uses a MIT license, as detailed in the LICENSE file.
 * iOS 7+
 * Xcode 8+
 
-## 🎯 使用方法
+### 🎯 安装方法
+#### 安装
+
+请在控制台运行
+```
+pod install --verbose --no-repo-update
+```
+
+## 🛠 使用方法
 ### 1. RSAutoWebView 封装方法
 #### 1.1 对外方法 
 ```objc
