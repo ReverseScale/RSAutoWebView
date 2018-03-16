@@ -11,7 +11,7 @@
 #define Version [[UIDevice currentDevice].systemVersion floatValue]
 
 @interface QZBaseWebViewController ()
-//声明`WebViewJavascriptBridge 对象为属性
+//声明 WebViewJavascriptBridge 对象为属性
 @property WebViewJavascriptBridge* bridge;
 @property (nonatomic, strong)RSAutoWebView *webView;
 @end
@@ -20,14 +20,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)loadWebViewWithURL:(NSString *)url {
     [self chooseWebViewUsingUIWebView:[self isSupportWKWebView]];
-
     [self reloadRequest:url];
 }
 
@@ -41,6 +38,7 @@
 - (void)reloadRequest:(NSString *)url {
     [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
 }
+
 
 // AutoWebView JavascriptBridge Delegate
 - (void)setupWebViewJavascriptBridge {
@@ -62,6 +60,7 @@
     }];
 }
 
+
 // AutoWebView WebView Delegate
 - (void)webViewDidStartLoad:(RSAutoWebView*)webView {
     if (self.startLoadBlock) {
@@ -80,20 +79,23 @@
     }
 }
 
+
 #pragma mark - 返回顶端
 - (void)scrollToTop {
     UIScrollView *scrollView;
     if (_webView) {
         scrollView = (UIScrollView *)[[_webView subviews] objectAtIndex:0];
-    }else{
+    } else {
         scrollView = (UIScrollView *)[[_webView subviews] objectAtIndex:0];
     }
     [scrollView setContentOffset:CGPointMake(0, -64) animated:YES];
 }
 
+
 - (BOOL)isSupportWKWebView {
    return Version >= 8.0 ? NO : YES;
 }
+
 // 图片适应 JavaScript 注入
 - (void)imgAutoFit {
     NSString *js = @"function imgAutoFit() { \
@@ -125,6 +127,7 @@
         [self.navigationController popViewControllerAnimated:YES];
     }
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -20,7 +20,6 @@
 static NSString *testAliYunURL = @"https://pan.baidu.com";
 static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1";
 
-
 @interface TableViewController ()
 @property (nonatomic, strong)QZBaseWebViewController *webView;
 @end
@@ -32,13 +31,15 @@ static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1"
     // 预加载 
     [self sonicPreload];
 }
+
 // 跳转 AutoWebView 页面
 - (void)openAutoWebView {
     self.webView = [self createAutoWebViewWithURL:testAliYunURL isAutoChoose:YES];
     self.webView.title = @"WebView";
     [self.navigationController pushViewController:self.webView animated:YES];
 }
-// 跳转 SonicWebView 页面
+
+// 跳转 腾讯开源·SonicWebView 页面
 - (void)openSonicWebView {
     SonicWebViewController *webVC = [[SonicWebViewController alloc]initWithUrl:testTencentURL useSonicMode:YES];
     webVC.title = @"VAS·Sonic";

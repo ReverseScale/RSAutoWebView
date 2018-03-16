@@ -6,15 +6,13 @@
 //  Copyright © 2017年 StevenXie. All rights reserved.
 //
 
-#import "QZBaseViewController.h"
 #import <WebViewJavascriptBridge.h>
 #import "RSAutoWebView.h"
 
-@interface QZBaseWebViewController : QZBaseViewController<RSAutoWebViewDelegate>
+@interface QZBaseWebViewController : UIViewController<RSAutoWebViewDelegate>
 #pragma mark - 设置加载
 // url请求地址
 - (void)loadWebViewWithURL:(NSString *)url;
-
 
 #pragma mark - 其他方法
 // 加载URL方法
@@ -26,7 +24,7 @@
 // 图片适应 JavaScript 注入
 - (void)imgAutoFit;
 
-// WebView中收起键盘方法
+// WebView 中收起键盘方法
 - (void)packupKeyboard;
 
 // 返回方法
@@ -45,12 +43,12 @@
 @property (nonatomic,copy) void(^failLoadBlock)(id webView, NSError *error);
 
 #pragma mark - WebViewJavascriptBridge JS交互方法
-//callHandler【OC向JS发生消息】
-- (void)JSCallHandlerWithFuncName:(NSString *)name Data:(NSDictionary *)dicData;
 @property (nonatomic,copy) void(^javaScriptCallReturnBlock)(id response);
+@property (nonatomic,copy) void(^javaScriptRegisterReturnBlock)(id response, WVJBResponseCallback responseCallback);
 
 //registerHandler 【OC接收JS的消息】
 - (void)JSRegisterHandlerWithFuncName:(NSString *)name;
-@property (nonatomic,copy) void(^javaScriptRegisterReturnBlock)(id response, WVJBResponseCallback responseCallback);
 
+//callHandler【OC向JS发生消息】
+- (void)JSCallHandlerWithFuncName:(NSString *)name Data:(NSDictionary *)dicData;
 @end
