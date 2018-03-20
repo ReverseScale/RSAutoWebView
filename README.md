@@ -40,7 +40,12 @@ Package function:
 ### 🎯 Installation
 #### Install
 
-Please run in console
+1.1 Use RSAutoWebView alone
+```
+pod 'RSAutoWebView', '~> 0.1.0'
+```
+
+1.2 Run demo, please run in console
 ```
 pod install --verbose --no-repo-update
 ```
@@ -251,7 +256,12 @@ RSAutoWebView uses a MIT license, as detailed in the LICENSE file.
 ### 🎯 安装方法
 #### 安装
 
-请在控制台运行
+1.1 单独使用 RSAutoWebView
+```
+pod 'RSAutoWebView', '~> 0.1.0'
+```
+
+1.2 运行项目，请在控制台运行
 ```
 pod install --verbose --no-repo-update
 ```
