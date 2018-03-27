@@ -158,6 +158,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		342D08442069ECCC008D0F8D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				34DCADF11F0620680034F681 /* BaseViewController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		34466A2E1EEA89C9005FF082 = {
 			isa = PBXGroup;
 			children = (
@@ -183,13 +191,13 @@
 		34466A391EEA89C9005FF082 /* RSAutoWebView */ = {
 			isa = PBXGroup;
 			children = (
+				342D08442069ECCC008D0F8D /* Base */,
 				34466A3D1EEA89C9005FF082 /* AppDelegate.h */,
 				34466A3E1EEA89C9005FF082 /* AppDelegate.m */,
-				34DCADF11F0620680034F681 /* BaseViewController */,
 				34B53F481F0E2DA400B83901 /* TableViewController.h */,
 				34B53F491F0E2DA400B83901 /* TableViewController.m */,
-				3458B2A01F4C1A4F0074D2E8 /* Sonic */,
 				34DCADE61F06204B0034F681 /* RSAutoWebView */,
+				3458B2A01F4C1A4F0074D2E8 /* TencentSonic */,
 				34466A431EEA89C9005FF082 /* Main.storyboard */,
 				34466A461EEA89C9005FF082 /* Assets.xcassets */,
 				34466A481EEA89C9005FF082 /* LaunchScreen.storyboard */,
@@ -236,7 +244,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3458B2A01F4C1A4F0074D2E8 /* Sonic */ = {
+		3458B2A01F4C1A4F0074D2E8 /* TencentSonic */ = {
 			isa = PBXGroup;
 			children = (
 				3458B2BB1F4C1A5F0074D2E8 /* SonicConfiguration */,
@@ -259,7 +267,7 @@
 				3458B2B11F4C1A4F0074D2E8 /* SonicURLProtocol.h */,
 				3458B2B21F4C1A4F0074D2E8 /* SonicURLProtocol.m */,
 			);
-			path = Sonic;
+			path = TencentSonic;
 			sourceTree = "<group>";
 		};
 		3458B2BB1F4C1A5F0074D2E8 /* SonicConfiguration */ = {
