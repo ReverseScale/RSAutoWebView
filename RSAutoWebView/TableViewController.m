@@ -12,7 +12,7 @@
 
 #import <SVProgressHUD.h>
 
-// 腾讯VAS框架
+/// 腾讯VAS框架
 #import "Sonic.h"
 #import "SonicWebViewController.h"
 #import "SonicOfflineCacheConnection.h"
@@ -32,36 +32,32 @@ static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1"
     [self sonicPreload];
 }
 
-// 跳转 AutoWebView 页面
+/// 跳转 AutoWebView 页面
 - (void)openAutoWebView {
     self.webView = [self createAutoWebViewWithURL:testAliYunURL isAutoChoose:YES];
     self.webView.title = @"WebView";
     [self.navigationController pushViewController:self.webView animated:YES];
 }
 
-// 跳转 腾讯开源·SonicWebView 页面
+/// 跳转 腾讯开源·SonicWebView 页面
 - (void)openSonicWebView {
     SonicWebViewController *webVC = [[SonicWebViewController alloc]initWithUrl:testTencentURL useSonicMode:YES];
     webVC.title = @"VAS·Sonic";
     [self.navigationController pushViewController:webVC animated:YES];
 }
 
-// 清理缓存
+/// 清理缓存
 - (void)clearCache {
     [self.webView clearCache];
     [[SonicClient sharedClient] clearAllCache];
     [SVProgressHUD showSuccessWithStatus:@"清理缓存成功"];
 }
 
-// 可选：作缓存预加载
+/// 可选：作缓存预加载
 - (void)sonicPreload {
     [[SonicClient sharedClient] createSessionWithUrl:testTencentURL withWebDelegate:nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 #pragma mark - Table view data source
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -96,5 +92,10 @@ static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1"
     };
     
     return webView;
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 @end

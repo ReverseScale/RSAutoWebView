@@ -37,12 +37,15 @@
     }
     return self;
 }
+
 - (instancetype)init {
     return [self initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64)];
 }
+
 - (instancetype)initWithFrame:(CGRect)frame {
     return [self initWithFrame:frame usingUIWebView:NO];
 }
+
 - (instancetype)initWithFrame:(CGRect)frame usingUIWebView:(BOOL)usingUIWebView {
     self = [super initWithFrame:frame];
     if (self) {
@@ -51,6 +54,7 @@
     }
     return self;
 }
+
 - (void)_initMyself {
     Class wkWebView = NSClassFromString(@"WKWebView");
     if (wkWebView && self.usingUIWebView == NO) {
@@ -67,6 +71,7 @@
     [self.realWebView setAutoresizingMask:UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight];
     [self addSubview:self.realWebView];
 }
+
 - (void)setDelegate:(id<RSAutoWebViewDelegate>)delegate {
     _delegate = delegate;
     if (_usingUIWebView) {
@@ -81,6 +86,7 @@
         webView.navigationDelegate = self;
     }
 }
+
 - (void)initWKWebView {
     WKWebViewConfiguration* configuration = [[NSClassFromString(@"WKWebViewConfiguration") alloc] init];
     configuration.userContentController = [NSClassFromString(@"WKUserContentController") new];
@@ -100,6 +106,7 @@
     [webView addObserver:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew context:nil];
     _realWebView = webView;
 }
+
 - (void)observeValueForKeyPath:(NSString*)keyPath ofObject:(id)object change:(NSDictionary*)change context:(void*)context {
     if ([keyPath isEqualToString:@"estimatedProgress"]) {
         self.estimatedProgress = [change[NSKeyValueChangeNewKey] doubleValue];
@@ -110,6 +117,7 @@
         [self didChangeValueForKey:keyPath];
     }
 }
+
 - (void)initUIWebView {
     UIWebView* webView = [[UIWebView alloc] initWithFrame:self.bounds];
     webView.backgroundColor = [UIColor clearColor];
@@ -131,12 +139,14 @@
     
     _realWebView = webView;
 }
+
 - (void)addScriptMessageHandler:(id<WKScriptMessageHandler>)scriptMessageHandler name:(NSString *)name {
     if (!_usingUIWebView) {
         WKWebViewConfiguration* configuration = [(WKWebView*)self.realWebView configuration];
         [configuration.userContentController addScriptMessageHandler:scriptMessageHandler name:name];
     }
 }
+
 - (JSContext *)jsContext {
     if (_usingUIWebView) {
         return [(UIWebView*)self.realWebView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
@@ -153,16 +163,20 @@
     }
     [self callback_webViewDidFinishLoad];
 }
+
 - (void)webViewDidStartLoad:(UIWebView*)webView {
     [self callback_webViewDidStartLoad];
 }
+
 - (void)webView:(UIWebView*)webView didFailLoadWithError:(NSError*)error {
     [self callback_webViewDidFailLoadWithError:error];
 }
+
 - (BOOL)webView:(UIWebView*)webView shouldStartLoadWithRequest:(NSURLRequest*)request navigationType:(UIWebViewNavigationType)navigationType {
     BOOL resultBOOL = [self callback_webViewShouldStartLoadWithRequest:request navigationType:navigationType];
     return resultBOOL;
 }
+
 - (void)webViewProgress:(RSUWWebViewProgress*)webViewProgress updateProgress:(CGFloat)progress {
     self.estimatedProgress = progress;
 }
@@ -224,11 +238,11 @@
 }
 
 #pragma mark - 基础方法
-///判断当前加载的url是否是WKWebView不能打开的协议类型
+/// 判断当前加载的url是否是WKWebView不能打开的协议类型
 - (BOOL)isLoadingWKWebViewDisableScheme:(NSURL*)url {
     BOOL retValue = NO;
     
-    //判断是否正在加载WKWebview不能识别的协议类型：phone numbers, email address, maps, etc.
+    // 判断是否正在加载WKWebview不能识别的协议类型：phone numbers, email address, maps, etc.
     if ([url.scheme isEqualToString:@"tel"]) {
         UIApplication* app = [UIApplication sharedApplication];
         if ([app canOpenURL:url]) {
@@ -486,7 +500,7 @@
         [invocation invokeWithTarget:self.delegate];
     }
 }
-// 清理缓存
+/// 清理缓存
 - (void)clearCache {
     NSString *libraryDir = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory,
                                                                NSUserDomainMask, YES)[0];

@@ -23,9 +23,8 @@
     });
     return sharedWKCookieSyncManagerInstance;
 }
-
+/// 判断系统是否支持wkWebView
 - (void)setCookie {
-    //判断系统是否支持wkWebView
     Class wkWebView = NSClassFromString(@"WKWebView");
     if (!wkWebView) {
         return;

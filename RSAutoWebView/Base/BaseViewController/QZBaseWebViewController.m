@@ -7,11 +7,11 @@
 //
 
 #import "QZBaseWebViewController.h"
-
+// 宏
 #define Version [[UIDevice currentDevice].systemVersion floatValue]
 
 @interface QZBaseWebViewController ()
-//声明 WebViewJavascriptBridge 对象为属性
+// 声明 WebViewJavascriptBridge 对象为属性
 @property WebViewJavascriptBridge* bridge;
 @property (nonatomic, strong)RSAutoWebView *webView;
 @end
@@ -46,6 +46,7 @@
     _bridge = [WebViewJavascriptBridge bridgeForWebView:_webView.realWebView];
     [_bridge setWebViewDelegate:self];
 }
+
 - (void)JSRegisterHandlerWithFuncName:(NSString *)name {
     [_bridge registerHandler:name handler:^(id data, WVJBResponseCallback responseCallback) {
         NSLog(@"testObjcCallback called: %@", data);
@@ -53,6 +54,7 @@
         self.javaScriptRegisterReturnBlock(data, responseCallback);
     }];
 }
+
 - (void)JSCallHandlerWithFuncName:(NSString *)name Data:(NSDictionary *)dicData {
     [_bridge callHandler:name data:dicData responseCallback:^(id response) {
         NSLog(@"testJavascriptHandler responded: %@", response);
@@ -67,11 +69,13 @@
         self.startLoadBlock(_webView);
     }
 }
+
 - (void)webViewDidFinishLoad:(RSAutoWebView*)webView {
     if (self.finishLoadBlock) {
         self.finishLoadBlock(_webView);
     }
 }
+
 - (void)webView:(RSAutoWebView*)webView didFailLoadWithError:(NSError*)error {
     NSLog(@"%@",error);
     if (self.failLoadBlock) {
@@ -91,7 +95,6 @@
     [scrollView setContentOffset:CGPointMake(0, -64) animated:YES];
 }
 
-
 - (BOOL)isSupportWKWebView {
    return Version >= 8.0 ? NO : YES;
 }
@@ -110,15 +113,18 @@
     [_webView evaluateJavaScript:js completionHandler:nil];
     [_webView evaluateJavaScript:@"imgAutoFit()" completionHandler:nil];
 }
-// WebView中收起键盘方法
+
+/// WebView中收起键盘方法
 - (void)packupKeyboard {
     [_webView evaluateJavaScript:@"document.activeElement.blur()" completionHandler:nil];
 }
-// 清理缓存
+
+/// 清理缓存
 - (void)clearCache {
     [self.webView clearCache];
 }
-// 返回方法
+
+/// 返回方法
 - (void)webViewBackAction:(UIBarButtonItem *)sender {
     if ([self.webView canGoBack]) {
         [self.webView goBack];
