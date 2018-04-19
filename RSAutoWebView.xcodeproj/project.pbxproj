@@ -29,10 +29,7 @@
 		3458B2C61F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2C11F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m */; };
 		3458B2C71F4C1A5F0074D2E8 /* SonicWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2C31F4C1A5F0074D2E8 /* SonicWebViewController.m */; };
 		34B53F4A1F0E2DA400B83901 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B53F491F0E2DA400B83901 /* TableViewController.m */; };
-		34DCADEE1F06204B0034F681 /* RSAutoWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADE81F06204B0034F681 /* RSAutoWebView.m */; };
-		34DCADEF1F06204B0034F681 /* RSWKCookieSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADEA1F06204B0034F681 /* RSWKCookieSyncManager.m */; };
-		34DCADF01F06204B0034F681 /* RSUWWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADED1F06204B0034F681 /* RSUWWebViewProgress.m */; };
-		34DCADF71F0620680034F681 /* QZBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADF51F0620680034F681 /* QZBaseWebViewController.m */; };
+		34DCADF71F0620680034F681 /* TestWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADF51F0620680034F681 /* TestWebViewController.m */; };
 		706B00AC8877639E31F694D0 /* libPods-RSAutoWebViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A20C45A404674004D8FEA7A /* libPods-RSAutoWebViewUITests.a */; };
 		D9432DBCD7E753089E6030D9 /* libPods-RSAutoWebViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F07D40D75A602CC5E9BE3679 /* libPods-RSAutoWebViewTests.a */; };
 /* End PBXBuildFile section */
@@ -100,14 +97,8 @@
 		3458B2C31F4C1A5F0074D2E8 /* SonicWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicWebViewController.m; sourceTree = "<group>"; };
 		34B53F481F0E2DA400B83901 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		34B53F491F0E2DA400B83901 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		34DCADE71F06204B0034F681 /* RSAutoWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAutoWebView.h; sourceTree = "<group>"; };
-		34DCADE81F06204B0034F681 /* RSAutoWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAutoWebView.m; sourceTree = "<group>"; };
-		34DCADE91F06204B0034F681 /* RSWKCookieSyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSWKCookieSyncManager.h; sourceTree = "<group>"; };
-		34DCADEA1F06204B0034F681 /* RSWKCookieSyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSWKCookieSyncManager.m; sourceTree = "<group>"; };
-		34DCADEC1F06204B0034F681 /* RSUWWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSUWWebViewProgress.h; sourceTree = "<group>"; };
-		34DCADED1F06204B0034F681 /* RSUWWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSUWWebViewProgress.m; sourceTree = "<group>"; };
-		34DCADF41F0620680034F681 /* QZBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZBaseWebViewController.h; sourceTree = "<group>"; };
-		34DCADF51F0620680034F681 /* QZBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZBaseWebViewController.m; sourceTree = "<group>"; };
+		34DCADF41F0620680034F681 /* TestWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWebViewController.h; sourceTree = "<group>"; };
+		34DCADF51F0620680034F681 /* TestWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWebViewController.m; sourceTree = "<group>"; };
 		497F97AD4902D7F994EFEF6A /* Pods-RSAutoWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAutoWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSAutoWebView/Pods-RSAutoWebView.debug.xcconfig"; sourceTree = "<group>"; };
 		7067E46E63B1ACF5E406875A /* Pods-RSAutoWebViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSAutoWebViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSAutoWebViewUITests/Pods-RSAutoWebViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7A20C45A404674004D8FEA7A /* libPods-RSAutoWebViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSAutoWebViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,14 +149,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		342D08442069ECCC008D0F8D /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				34DCADF11F0620680034F681 /* BaseViewController */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		34466A2E1EEA89C9005FF082 = {
 			isa = PBXGroup;
 			children = (
@@ -191,12 +174,13 @@
 		34466A391EEA89C9005FF082 /* RSAutoWebView */ = {
 			isa = PBXGroup;
 			children = (
-				342D08442069ECCC008D0F8D /* Base */,
 				34466A3D1EEA89C9005FF082 /* AppDelegate.h */,
 				34466A3E1EEA89C9005FF082 /* AppDelegate.m */,
 				34B53F481F0E2DA400B83901 /* TableViewController.h */,
 				34B53F491F0E2DA400B83901 /* TableViewController.m */,
-				34DCADE61F06204B0034F681 /* RSAutoWebView */,
+				34DCADF41F0620680034F681 /* TestWebViewController.h */,
+				34DCADF51F0620680034F681 /* TestWebViewController.m */,
+				3458B2BB1F4C1A5F0074D2E8 /* TencentSonicDemo */,
 				3458B2A01F4C1A4F0074D2E8 /* TencentSonic */,
 				34466A431EEA89C9005FF082 /* Main.storyboard */,
 				34466A461EEA89C9005FF082 /* Assets.xcassets */,
@@ -247,7 +231,6 @@
 		3458B2A01F4C1A4F0074D2E8 /* TencentSonic */ = {
 			isa = PBXGroup;
 			children = (
-				3458B2BB1F4C1A5F0074D2E8 /* SonicConfiguration */,
 				3458B2A11F4C1A4F0074D2E8 /* Info.plist */,
 				3458B2A21F4C1A4F0074D2E8 /* Sonic.h */,
 				3458B2A31F4C1A4F0074D2E8 /* SonicCache.h */,
@@ -270,18 +253,18 @@
 			path = TencentSonic;
 			sourceTree = "<group>";
 		};
-		3458B2BB1F4C1A5F0074D2E8 /* SonicConfiguration */ = {
+		3458B2BB1F4C1A5F0074D2E8 /* TencentSonicDemo */ = {
 			isa = PBXGroup;
 			children = (
 				3458B2BC1F4C1A5F0074D2E8 /* offline */,
-				3458B2BE1F4C1A5F0074D2E8 /* SonicJSContext.h */,
-				3458B2BF1F4C1A5F0074D2E8 /* SonicJSContext.m */,
-				3458B2C01F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.h */,
-				3458B2C11F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m */,
 				3458B2C21F4C1A5F0074D2E8 /* SonicWebViewController.h */,
 				3458B2C31F4C1A5F0074D2E8 /* SonicWebViewController.m */,
+				3458B2C01F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.h */,
+				3458B2C11F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m */,
+				3458B2BE1F4C1A5F0074D2E8 /* SonicJSContext.h */,
+				3458B2BF1F4C1A5F0074D2E8 /* SonicJSContext.m */,
 			);
-			path = SonicConfiguration;
+			path = TencentSonicDemo;
 			sourceTree = "<group>";
 		};
 		3458B2BC1F4C1A5F0074D2E8 /* offline */ = {
@@ -290,36 +273,6 @@
 				3458B2BD1F4C1A5F0074D2E8 /* main.html */,
 			);
 			path = offline;
-			sourceTree = "<group>";
-		};
-		34DCADE61F06204B0034F681 /* RSAutoWebView */ = {
-			isa = PBXGroup;
-			children = (
-				34DCADE71F06204B0034F681 /* RSAutoWebView.h */,
-				34DCADE81F06204B0034F681 /* RSAutoWebView.m */,
-				34DCADE91F06204B0034F681 /* RSWKCookieSyncManager.h */,
-				34DCADEA1F06204B0034F681 /* RSWKCookieSyncManager.m */,
-				34DCADEB1F06204B0034F681 /* WebViewProgress */,
-			);
-			path = RSAutoWebView;
-			sourceTree = "<group>";
-		};
-		34DCADEB1F06204B0034F681 /* WebViewProgress */ = {
-			isa = PBXGroup;
-			children = (
-				34DCADEC1F06204B0034F681 /* RSUWWebViewProgress.h */,
-				34DCADED1F06204B0034F681 /* RSUWWebViewProgress.m */,
-			);
-			path = WebViewProgress;
-			sourceTree = "<group>";
-		};
-		34DCADF11F0620680034F681 /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				34DCADF41F0620680034F681 /* QZBaseWebViewController.h */,
-				34DCADF51F0620680034F681 /* QZBaseWebViewController.m */,
-			);
-			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -617,15 +570,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34DCADEE1F06204B0034F681 /* RSAutoWebView.m in Sources */,
 				3458B2C61F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m in Sources */,
 				3458B2B81F4C1A4F0074D2E8 /* SonicSession.m in Sources */,
 				3458B2B61F4C1A4F0074D2E8 /* SonicClient.m in Sources */,
 				3458B2B91F4C1A4F0074D2E8 /* SonicUitil.m in Sources */,
 				3458B2B41F4C1A4F0074D2E8 /* SonicCache.m in Sources */,
-				34DCADF01F06204B0034F681 /* RSUWWebViewProgress.m in Sources */,
 				34B53F4A1F0E2DA400B83901 /* TableViewController.m in Sources */,
-				34DCADEF1F06204B0034F681 /* RSWKCookieSyncManager.m in Sources */,
 				3458B2C51F4C1A5F0074D2E8 /* SonicJSContext.m in Sources */,
 				3458B2B51F4C1A4F0074D2E8 /* SonicCacheItem.m in Sources */,
 				34466A3F1EEA89C9005FF082 /* AppDelegate.m in Sources */,
@@ -633,7 +583,7 @@
 				34466A3C1EEA89C9005FF082 /* main.m in Sources */,
 				3458B2BA1F4C1A4F0074D2E8 /* SonicURLProtocol.m in Sources */,
 				3458B2C71F4C1A5F0074D2E8 /* SonicWebViewController.m in Sources */,
-				34DCADF71F0620680034F681 /* QZBaseWebViewController.m in Sources */,
+				34DCADF71F0620680034F681 /* TestWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

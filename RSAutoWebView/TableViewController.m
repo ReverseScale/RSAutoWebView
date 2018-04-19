@@ -7,21 +7,20 @@
 //
 
 #import "TableViewController.h"
-#import "QZBaseWebViewController.h"
-#import "RSWKCookieSyncManager.h"
-
 #import <SVProgressHUD.h>
 
-/// 腾讯VAS框架
-#import "Sonic.h"
+/// AutoWebView
+#import "TestWebViewController.h"
+#import "RSWKCookieSyncManager.h"
+
+/// 腾讯VAS
 #import "SonicWebViewController.h"
-#import "SonicOfflineCacheConnection.h"
 
 static NSString *testAliYunURL = @"https://pan.baidu.com";
 static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1";
 
 @interface TableViewController ()
-@property (nonatomic, strong)QZBaseWebViewController *webView;
+@property (nonatomic, strong)TestWebViewController *webView;
 @end
 
 @implementation TableViewController
@@ -75,8 +74,8 @@ static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1"
 }
 
 #pragma mark - create AutoWebView & Delegate
-- (QZBaseWebViewController *)createAutoWebViewWithURL:(NSString *)url isAutoChoose:(BOOL)isAuto {
-    QZBaseWebViewController *webView = [QZBaseWebViewController new];
+- (TestWebViewController *)createAutoWebViewWithURL:(NSString *)url isAutoChoose:(BOOL)isAuto {
+    TestWebViewController *webView = [TestWebViewController new];
     [webView loadWebViewWithURL:url];
     self.webView.finishLoadBlock = ^(id webView) {
         NSLog(@"finishLoadBlock");

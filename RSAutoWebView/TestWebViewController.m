@@ -6,17 +6,17 @@
 //  Copyright © 2017年 StevenXie. All rights reserved.
 //
 
-#import "QZBaseWebViewController.h"
+#import "TestWebViewController.h"
 // 宏
 #define Version [[UIDevice currentDevice].systemVersion floatValue]
 
-@interface QZBaseWebViewController ()
+@interface TestWebViewController ()
 // 声明 WebViewJavascriptBridge 对象为属性
 @property WebViewJavascriptBridge* bridge;
 @property (nonatomic, strong)RSAutoWebView *webView;
 @end
 
-@implementation QZBaseWebViewController
+@implementation TestWebViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

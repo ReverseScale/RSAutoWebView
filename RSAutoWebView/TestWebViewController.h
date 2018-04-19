@@ -9,7 +9,7 @@
 #import <WebViewJavascriptBridge.h>
 #import "RSAutoWebView.h"
 
-@interface QZBaseWebViewController : UIViewController<RSAutoWebViewDelegate>
+@interface TestWebViewController : UIViewController<RSAutoWebViewDelegate>
 #pragma mark - 设置加载
 /// url请求地址
 - (void)loadWebViewWithURL:(NSString *)url;
@@ -18,14 +18,16 @@
 #pragma mark - 其他方法
 /// 加载URL方法
 - (void)reloadRequest:(NSString *)url;
-/// 返回顶端
-- (void)scrollToTop;
-/// 图片适应 JavaScript 注入
-- (void)imgAutoFit;
-/// WebView 中收起键盘方法
-- (void)packupKeyboard;
-/// 返回方法
-- (void)webViewBackAction:(UIBarButtonItem *)sender;
+    
+///// 返回顶端
+//- (void)scrollToTop;
+///// 图片适应 JavaScript 注入
+//- (void)imgAutoFit;
+///// WebView 中收起键盘方法
+//- (void)packupKeyboard;
+///// 返回方法
+//- (void)webViewBackAction:(UIBarButtonItem *)sender;
+    
 /// 清理缓存
 - (void)clearCache;
 

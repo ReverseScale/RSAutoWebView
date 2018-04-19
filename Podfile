@@ -6,6 +6,7 @@ target 'RSAutoWebView' do
   # use_frameworks!
 pod 'SVProgressHUD', '~> 2.1.2'
 pod 'WebViewJavascriptBridge', '~> 6.0.2'
+pod 'RSAutoWebView', '~> 0.1.0'
   # Pods for RSAutoWebView
 
   target 'RSAutoWebViewTests' do
