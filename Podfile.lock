@@ -1,0 +1,18 @@
+PODS:
+  - RSAutoWebView (0.1.0)
+  - SVProgressHUD (2.1.2)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - RSAutoWebView (~> 0.1.0)
+  - SVProgressHUD (~> 2.1.2)
+  - WebViewJavascriptBridge (~> 6.0.2)
+
+SPEC CHECKSUMS:
+  RSAutoWebView: e3bdfb3614e4b9d3bd2e5d72db57f519de81d902
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 1820219095b97c07a91f16d48267caaf3701e5d4
+
+COCOAPODS: 1.4.0
