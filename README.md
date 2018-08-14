@@ -42,11 +42,13 @@ Package function:
 #### Install
 
 1.1 Use RSAutoWebView alone
+
 ```
 pod 'RSAutoWebView', '~> 0.1.0'
 ```
 
 1.2 Run demo, please run in console
+
 ```
 pod install --verbose --no-repo-update
 ```
@@ -115,6 +117,7 @@ pod install --verbose --no-repo-update
 ```
 ### 2. BaseWebViewController base class method
 #### 2.1 The basic method
+
 ```objc
 / *
 * url request address
@@ -124,7 +127,9 @@ pod install --verbose --no-repo-update
 * /
 - (void)loadWebViewWithURL:(NSString *)url autoChoose:(BOOL)isOpen ifCloseAutoChooseUsingUIWebView:(BOOL)usingUIWebView;
 ```
+
 #### 2.2 Enhance the method
+
 ```objc
 #pragma mark - Parameters, methods
 // URL address
@@ -178,6 +183,7 @@ The first time you access VasSonic, you can request the page resources in parall
 Official open source address: https://github.com/Tencent/vassonic
 
 #### 3.2 The basic method
+
 Quote the header file
 
 ```
@@ -188,6 +194,7 @@ Quote the header file
 ```
 
 Use the jump method
+
 ```
 SonicWebViewController *webVC = [[SonicWebViewController alloc]initWithUrl:testTencentURL useSonicMode:YES];
 webVC.title = @"VAS·Sonic";
@@ -195,33 +202,34 @@ webVC.title = @"VAS·Sonic";
 ```
 
 Simple to use, efficient, process-safe ~~~ If you have better suggestions, I hope have enlighten me!
+
 ### Your star is my motivation to keep updating!
 
 ## 📝 CocoaPods update log
 
-* ** 2017.08.22 (tag: 0.9.0): ** </ br>
+* ** 2017.08.22 (tag: 0.9.0): 
 
-1. Sort open base class method, optimize the realization of the function; </ br>
+1. Sort open base class method, optimize the realization of the function; 
 
-2. Join Tencent open source VasSonic second open WebView framework. </ br>
+2. Join Tencent open source VasSonic second open WebView framework. 
 
-* ** 2017.04.10 (tag: 0.8.0): ** </ br>
+* ** 2017.04.10 (tag: 0.8.0): 
 
-1. Add WebViewJavascriptBridge support, add JavaScript <-> Objective-C interaction; </ br>
+1. Add WebViewJavascriptBridge support, add JavaScript <-> Objective-C interaction; 
 
-2.Block callback package; </ br>
+2.Block callback package; 
 
-3.Cookie cache synchronization mechanism. </ br>
+3.Cookie cache synchronization mechanism. 
 
-* ** 2016.09.18 (tag: 0.2.5): ** </ br>
+* ** 2016.09.18 (tag: 0.2.5): 
 
-1.Automatically switch WK / UI-WebView by system version, </ br>
+1.Automatically switch WK / UI-WebView by system version, 
 
-2.functional package. </ br>
+2.functional package.
 
-* ** 2016.08.26 (tag: 0.1.0): ** </ br>
+* ** 2016.08.26 (tag: 0.1.0): 
 
-1.Create a manual WebView switch tool. </ br>
+1.Create a manual WebView switch tool. 
 
 ## ⚖ License License
 RSAutoWebView uses a MIT license, as detailed in the LICENSE file.
