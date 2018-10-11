@@ -196,6 +196,8 @@ webVC.title = @"VAS·Sonic";
 ### 你的star是我持续更新的动力!
 
 ## 📝 CocoaPods更新日志
+* **2018.10.11(tag:1.0.0):** </br>
+	 移除 VasSonic 功能组件。</br>
 * **2017.08.22(tag:0.9.0):** </br>
 	 1.整理基类开放方法，优化实现功能;</br>
 	 2.加入腾讯开源的 VasSonic 秒开 WebView 框架。</br>
