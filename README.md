@@ -206,6 +206,9 @@ Simple to use, efficient, process-safe ~~~ If you have better suggestions, I hop
 ### Your star is my motivation to keep updating!
 
 ## 📝 CocoaPods update log
+* ** 2017.10.11 (tag: 1.0.0): 
+
+Remove the VasSonic functional component. 
 
 * ** 2017.08.22 (tag: 0.9.0): 
 
