@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Sonic.h"
 
 @interface AppDelegate ()
 @end
@@ -15,7 +14,6 @@
 @implementation AppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [NSURLProtocol registerClass:[SonicURLProtocol class]];
 
     return YES;
 }

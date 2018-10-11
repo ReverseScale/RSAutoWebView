@@ -16,18 +16,6 @@
 		34466A551EEA89CA005FF082 /* RSAutoWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34466A541EEA89CA005FF082 /* RSAutoWebViewTests.m */; };
 		34466A601EEA89CA005FF082 /* RSAutoWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34466A5F1EEA89CA005FF082 /* RSAutoWebViewUITests.m */; };
 		34466A881EEA994B005FF082 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34466A871EEA994B005FF082 /* WebKit.framework */; };
-		3458B2B31F4C1A4F0074D2E8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3458B2A11F4C1A4F0074D2E8 /* Info.plist */; };
-		3458B2B41F4C1A4F0074D2E8 /* SonicCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2A41F4C1A4F0074D2E8 /* SonicCache.m */; };
-		3458B2B51F4C1A4F0074D2E8 /* SonicCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2A61F4C1A4F0074D2E8 /* SonicCacheItem.m */; };
-		3458B2B61F4C1A4F0074D2E8 /* SonicClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2A81F4C1A4F0074D2E8 /* SonicClient.m */; };
-		3458B2B71F4C1A4F0074D2E8 /* SonicConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2AA1F4C1A4F0074D2E8 /* SonicConnection.m */; };
-		3458B2B81F4C1A4F0074D2E8 /* SonicSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2AE1F4C1A4F0074D2E8 /* SonicSession.m */; };
-		3458B2B91F4C1A4F0074D2E8 /* SonicUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2B01F4C1A4F0074D2E8 /* SonicUitil.m */; };
-		3458B2BA1F4C1A4F0074D2E8 /* SonicURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2B21F4C1A4F0074D2E8 /* SonicURLProtocol.m */; };
-		3458B2C41F4C1A5F0074D2E8 /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3458B2BD1F4C1A5F0074D2E8 /* main.html */; };
-		3458B2C51F4C1A5F0074D2E8 /* SonicJSContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2BF1F4C1A5F0074D2E8 /* SonicJSContext.m */; };
-		3458B2C61F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2C11F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m */; };
-		3458B2C71F4C1A5F0074D2E8 /* SonicWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3458B2C31F4C1A5F0074D2E8 /* SonicWebViewController.m */; };
 		34B53F4A1F0E2DA400B83901 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B53F491F0E2DA400B83901 /* TableViewController.m */; };
 		34DCADF71F0620680034F681 /* TestWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DCADF51F0620680034F681 /* TestWebViewController.m */; };
 		706B00AC8877639E31F694D0 /* libPods-RSAutoWebViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A20C45A404674004D8FEA7A /* libPods-RSAutoWebViewUITests.a */; };
@@ -70,31 +58,6 @@
 		34466A5F1EEA89CA005FF082 /* RSAutoWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAutoWebViewUITests.m; sourceTree = "<group>"; };
 		34466A611EEA89CA005FF082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34466A871EEA994B005FF082 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		3458B2A11F4C1A4F0074D2E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3458B2A21F4C1A4F0074D2E8 /* Sonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sonic.h; sourceTree = "<group>"; };
-		3458B2A31F4C1A4F0074D2E8 /* SonicCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicCache.h; sourceTree = "<group>"; };
-		3458B2A41F4C1A4F0074D2E8 /* SonicCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicCache.m; sourceTree = "<group>"; };
-		3458B2A51F4C1A4F0074D2E8 /* SonicCacheItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicCacheItem.h; sourceTree = "<group>"; };
-		3458B2A61F4C1A4F0074D2E8 /* SonicCacheItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicCacheItem.m; sourceTree = "<group>"; };
-		3458B2A71F4C1A4F0074D2E8 /* SonicClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicClient.h; sourceTree = "<group>"; };
-		3458B2A81F4C1A4F0074D2E8 /* SonicClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicClient.m; sourceTree = "<group>"; };
-		3458B2A91F4C1A4F0074D2E8 /* SonicConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicConnection.h; sourceTree = "<group>"; };
-		3458B2AA1F4C1A4F0074D2E8 /* SonicConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicConnection.m; sourceTree = "<group>"; };
-		3458B2AB1F4C1A4F0074D2E8 /* SonicConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicConstants.h; sourceTree = "<group>"; };
-		3458B2AC1F4C1A4F0074D2E8 /* SonicProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicProtocol.h; sourceTree = "<group>"; };
-		3458B2AD1F4C1A4F0074D2E8 /* SonicSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicSession.h; sourceTree = "<group>"; };
-		3458B2AE1F4C1A4F0074D2E8 /* SonicSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicSession.m; sourceTree = "<group>"; };
-		3458B2AF1F4C1A4F0074D2E8 /* SonicUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicUitil.h; sourceTree = "<group>"; };
-		3458B2B01F4C1A4F0074D2E8 /* SonicUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicUitil.m; sourceTree = "<group>"; };
-		3458B2B11F4C1A4F0074D2E8 /* SonicURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicURLProtocol.h; sourceTree = "<group>"; };
-		3458B2B21F4C1A4F0074D2E8 /* SonicURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicURLProtocol.m; sourceTree = "<group>"; };
-		3458B2BD1F4C1A5F0074D2E8 /* main.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = main.html; sourceTree = "<group>"; };
-		3458B2BE1F4C1A5F0074D2E8 /* SonicJSContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicJSContext.h; sourceTree = "<group>"; };
-		3458B2BF1F4C1A5F0074D2E8 /* SonicJSContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicJSContext.m; sourceTree = "<group>"; };
-		3458B2C01F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicOfflineCacheConnection.h; sourceTree = "<group>"; };
-		3458B2C11F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicOfflineCacheConnection.m; sourceTree = "<group>"; };
-		3458B2C21F4C1A5F0074D2E8 /* SonicWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonicWebViewController.h; sourceTree = "<group>"; };
-		3458B2C31F4C1A5F0074D2E8 /* SonicWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonicWebViewController.m; sourceTree = "<group>"; };
 		34B53F481F0E2DA400B83901 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		34B53F491F0E2DA400B83901 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		34DCADF41F0620680034F681 /* TestWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWebViewController.h; sourceTree = "<group>"; };
@@ -180,8 +143,6 @@
 				34B53F491F0E2DA400B83901 /* TableViewController.m */,
 				34DCADF41F0620680034F681 /* TestWebViewController.h */,
 				34DCADF51F0620680034F681 /* TestWebViewController.m */,
-				3458B2BB1F4C1A5F0074D2E8 /* TencentSonicDemo */,
-				3458B2A01F4C1A4F0074D2E8 /* TencentSonic */,
 				34466A431EEA89C9005FF082 /* Main.storyboard */,
 				34466A461EEA89C9005FF082 /* Assets.xcassets */,
 				34466A481EEA89C9005FF082 /* LaunchScreen.storyboard */,
@@ -228,53 +189,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3458B2A01F4C1A4F0074D2E8 /* TencentSonic */ = {
-			isa = PBXGroup;
-			children = (
-				3458B2A11F4C1A4F0074D2E8 /* Info.plist */,
-				3458B2A21F4C1A4F0074D2E8 /* Sonic.h */,
-				3458B2A31F4C1A4F0074D2E8 /* SonicCache.h */,
-				3458B2A41F4C1A4F0074D2E8 /* SonicCache.m */,
-				3458B2A51F4C1A4F0074D2E8 /* SonicCacheItem.h */,
-				3458B2A61F4C1A4F0074D2E8 /* SonicCacheItem.m */,
-				3458B2A71F4C1A4F0074D2E8 /* SonicClient.h */,
-				3458B2A81F4C1A4F0074D2E8 /* SonicClient.m */,
-				3458B2A91F4C1A4F0074D2E8 /* SonicConnection.h */,
-				3458B2AA1F4C1A4F0074D2E8 /* SonicConnection.m */,
-				3458B2AB1F4C1A4F0074D2E8 /* SonicConstants.h */,
-				3458B2AC1F4C1A4F0074D2E8 /* SonicProtocol.h */,
-				3458B2AD1F4C1A4F0074D2E8 /* SonicSession.h */,
-				3458B2AE1F4C1A4F0074D2E8 /* SonicSession.m */,
-				3458B2AF1F4C1A4F0074D2E8 /* SonicUitil.h */,
-				3458B2B01F4C1A4F0074D2E8 /* SonicUitil.m */,
-				3458B2B11F4C1A4F0074D2E8 /* SonicURLProtocol.h */,
-				3458B2B21F4C1A4F0074D2E8 /* SonicURLProtocol.m */,
-			);
-			path = TencentSonic;
-			sourceTree = "<group>";
-		};
-		3458B2BB1F4C1A5F0074D2E8 /* TencentSonicDemo */ = {
-			isa = PBXGroup;
-			children = (
-				3458B2BC1F4C1A5F0074D2E8 /* offline */,
-				3458B2C21F4C1A5F0074D2E8 /* SonicWebViewController.h */,
-				3458B2C31F4C1A5F0074D2E8 /* SonicWebViewController.m */,
-				3458B2C01F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.h */,
-				3458B2C11F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m */,
-				3458B2BE1F4C1A5F0074D2E8 /* SonicJSContext.h */,
-				3458B2BF1F4C1A5F0074D2E8 /* SonicJSContext.m */,
-			);
-			path = TencentSonicDemo;
-			sourceTree = "<group>";
-		};
-		3458B2BC1F4C1A5F0074D2E8 /* offline */ = {
-			isa = PBXGroup;
-			children = (
-				3458B2BD1F4C1A5F0074D2E8 /* main.html */,
-			);
-			path = offline;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,7 +200,6 @@
 				34466A331EEA89C9005FF082 /* Sources */,
 				34466A341EEA89C9005FF082 /* Frameworks */,
 				34466A351EEA89C9005FF082 /* Resources */,
-				FF27842061697639DF78AA8B /* [CP] Embed Pods Frameworks */,
 				FBD370089280BE343D1FFA95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -306,8 +219,6 @@
 				34466A4C1EEA89CA005FF082 /* Sources */,
 				34466A4D1EEA89CA005FF082 /* Frameworks */,
 				34466A4E1EEA89CA005FF082 /* Resources */,
-				1B94AEEE54BAAD180412999B /* [CP] Embed Pods Frameworks */,
-				F870189B86EB2937A1792609 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,8 +238,6 @@
 				34466A571EEA89CA005FF082 /* Sources */,
 				34466A581EEA89CA005FF082 /* Frameworks */,
 				34466A591EEA89CA005FF082 /* Resources */,
-				2E955D96C350F0AE431DAA17 /* [CP] Embed Pods Frameworks */,
-				F15C555CB44709B52BF65C0C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,7 +260,7 @@
 				TargetAttributes = {
 					34466A361EEA89C9005FF082 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 7QT42R489Z;
+						DevelopmentTeam = MQ4BAK6QRP;
 						ProvisioningStyle = Automatic;
 					};
 					34466A4F1EEA89CA005FF082 = {
@@ -391,8 +300,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3458B2B31F4C1A4F0074D2E8 /* Info.plist in Resources */,
-				3458B2C41F4C1A5F0074D2E8 /* main.html in Resources */,
 				34466A4A1EEA89C9005FF082 /* LaunchScreen.storyboard in Resources */,
 				34466A471EEA89C9005FF082 /* Assets.xcassets in Resources */,
 				34466A451EEA89C9005FF082 /* Main.storyboard in Resources */,
@@ -416,36 +323,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B94AEEE54BAAD180412999B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebViewTests/Pods-RSAutoWebViewTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2E955D96C350F0AE431DAA17 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebViewUITests/Pods-RSAutoWebViewUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		992F286B3287EA22DE67B8FB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -500,36 +377,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F15C555CB44709B52BF65C0C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebViewUITests/Pods-RSAutoWebViewUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F870189B86EB2937A1792609 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebViewTests/Pods-RSAutoWebViewTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FBD370089280BE343D1FFA95 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,21 +395,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebView/Pods-RSAutoWebView-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF27842061697639DF78AA8B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSAutoWebView/Pods-RSAutoWebView-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -570,19 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3458B2C61F4C1A5F0074D2E8 /* SonicOfflineCacheConnection.m in Sources */,
-				3458B2B81F4C1A4F0074D2E8 /* SonicSession.m in Sources */,
-				3458B2B61F4C1A4F0074D2E8 /* SonicClient.m in Sources */,
-				3458B2B91F4C1A4F0074D2E8 /* SonicUitil.m in Sources */,
-				3458B2B41F4C1A4F0074D2E8 /* SonicCache.m in Sources */,
 				34B53F4A1F0E2DA400B83901 /* TableViewController.m in Sources */,
-				3458B2C51F4C1A5F0074D2E8 /* SonicJSContext.m in Sources */,
-				3458B2B51F4C1A4F0074D2E8 /* SonicCacheItem.m in Sources */,
 				34466A3F1EEA89C9005FF082 /* AppDelegate.m in Sources */,
-				3458B2B71F4C1A4F0074D2E8 /* SonicConnection.m in Sources */,
 				34466A3C1EEA89C9005FF082 /* main.m in Sources */,
-				3458B2BA1F4C1A4F0074D2E8 /* SonicURLProtocol.m in Sources */,
-				3458B2C71F4C1A5F0074D2E8 /* SonicWebViewController.m in Sources */,
 				34DCADF71F0620680034F681 /* TestWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -733,7 +555,7 @@
 			baseConfigurationReference = 497F97AD4902D7F994EFEF6A /* Pods-RSAutoWebView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7QT42R489Z;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				INFOPLIST_FILE = RSAutoWebView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -747,7 +569,7 @@
 			baseConfigurationReference = C28BE0F9CB84CE5785265CD8 /* Pods-RSAutoWebView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7QT42R489Z;
+				DEVELOPMENT_TEAM = MQ4BAK6QRP;
 				INFOPLIST_FILE = RSAutoWebView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

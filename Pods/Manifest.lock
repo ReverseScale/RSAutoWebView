@@ -8,6 +8,12 @@ DEPENDENCIES:
   - SVProgressHUD (~> 2.1.2)
   - WebViewJavascriptBridge (~> 6.0.2)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RSAutoWebView
+    - SVProgressHUD
+    - WebViewJavascriptBridge
+
 SPEC CHECKSUMS:
   RSAutoWebView: e3bdfb3614e4b9d3bd2e5d72db57f519de81d902
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
@@ -15,4 +21,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 1820219095b97c07a91f16d48267caaf3701e5d4
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

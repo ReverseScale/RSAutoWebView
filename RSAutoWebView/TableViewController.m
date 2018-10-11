@@ -13,9 +13,6 @@
 #import "TestWebViewController.h"
 #import "RSWKCookieSyncManager.h"
 
-/// 腾讯VAS
-#import "SonicWebViewController.h"
-
 static NSString *testAliYunURL = @"https://pan.baidu.com";
 static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1";
 
@@ -27,8 +24,6 @@ static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1"
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // 预加载 
-    [self sonicPreload];
 }
 
 /// 跳转 AutoWebView 页面
@@ -38,23 +33,10 @@ static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1"
     [self.navigationController pushViewController:self.webView animated:YES];
 }
 
-/// 跳转 腾讯开源·SonicWebView 页面
-- (void)openSonicWebView {
-    SonicWebViewController *webVC = [[SonicWebViewController alloc]initWithUrl:testTencentURL useSonicMode:YES];
-    webVC.title = @"VAS·Sonic";
-    [self.navigationController pushViewController:webVC animated:YES];
-}
-
 /// 清理缓存
 - (void)clearCache {
     [self.webView clearCache];
-    [[SonicClient sharedClient] clearAllCache];
     [SVProgressHUD showSuccessWithStatus:@"清理缓存成功"];
-}
-
-/// 可选：作缓存预加载
-- (void)sonicPreload {
-    [[SonicClient sharedClient] createSessionWithUrl:testTencentURL withWebDelegate:nil];
 }
 
 
@@ -63,9 +45,6 @@ static NSString *testTencentURL = @"http://mc.vip.qq.com/demo/indexv3?offline=1"
     switch (indexPath.row) {
         case 0:
             [self openAutoWebView];
-            break;
-        case 1:
-            [self openSonicWebView];
             break;
         default:
             [self clearCache];

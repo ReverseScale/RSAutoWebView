@@ -7,67 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		056B131A9523C15BEA50D8322A421E28 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A879EE72C9B159B657B5303D03CE02 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0DA5BE95EBBAEC2DFACD4571F3B146E6 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D567D7EB5AA1DD9949886989ED04C5D4 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0F6382531C8BCEDF012A6AC023E626EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F700FB0AC8F4459DB2838C625956B /* Foundation.framework */; };
-		1CC5C4F4CAFB598156DEF1AD879B1C84 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B05A6F29C77ACEA9EDADA36D84FC0D /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D237A0D0D13ADCA920CC69816B778E9 /* RSAutoWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7781ED118762A5B71CF8BF0B0C8B9390 /* RSAutoWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1DFEDCFC9997B4FAD77B759B40374C83 /* RSAutoWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0928F8BB6DF7BFD014683F17DACB /* RSAutoWebView.m */; };
-		2D9A0593405804EDE8E50CC37F31B6F3 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538733E815F39A5C710D60309578468 /* SVProgressAnimatedView.m */; };
-		328F5F6DF6C606F6D9C0107A3C0CF70B /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C425B4E4DEED0F730DA3B537061857 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		36818CF8CE75F7487BB12205F0E2B3B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECADDED1C03133B656B31212FA6561D /* UIKit.framework */; };
-		3780D3073BB6B356874CB4CEA787B06F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF2B0C75368A5081D413470ADC3AAA /* ReplaceMe.m */; };
-		3F41CA93124B4556B2C9274C4F0A99D8 /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D47F594E1FD27EAEDF76FC791C3119F /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		407E785D857EC28A8E7976A3861A7575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F700FB0AC8F4459DB2838C625956B /* Foundation.framework */; };
-		472CB7757E99AC6E9DD5002A609DCA68 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = A86BB4320E7FC543D52986A8F67BFA48 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4994DD74990541D1DA07B4EEBAC69972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F700FB0AC8F4459DB2838C625956B /* Foundation.framework */; };
-		50AE01B7910A92D7E81801D3AEF1F586 /* Pods-RSAutoWebViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B9281D92ACE53EDC4F25B0D120729 /* Pods-RSAutoWebViewUITests-dummy.m */; };
-		5679048B628DCE1FE867BDD72BAEEBEE /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3618C5333BC29928286A00C6C0AEDD22 /* SVRadialGradientLayer.m */; };
-		5A63437B0E7ED84859C7EB3EEB8E0128 /* Pods-RSAutoWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0575388A16C3CB7B97827E58ACE70CE /* Pods-RSAutoWebView-dummy.m */; };
-		62D470C401F93B7CC9487DB02FED41DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F700FB0AC8F4459DB2838C625956B /* Foundation.framework */; };
-		66F1DCEC61BAA83B7B229E237CCD2990 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB7A8591C143E73133CCD266E9FD139 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6B2BE38469BBCA69A0258E9513E475BC /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3444A8A84D34D679EA7AF98DF64C8 /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6D52DEC8676C80E643746FA7216F94FA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F38C046E865207532B3778A25B7031 /* WebKit.framework */; };
-		6EE7C80C0BE884402FB1B10F9FEEC519 /* RSUWWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7B911396356DC7150358972C2FF0EC /* RSUWWebViewProgress.m */; };
-		776F6452C1737E04D4ABF7C7E691597A /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8276A3E26A67EEEA9CBA913EA0C9D85D /* SVProgressHUD-dummy.m */; };
-		7E1262689211193DCA4EE7C6F1883433 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BCE16CE3390103A0E73513B105ACB7 /* SVIndefiniteAnimatedView.m */; };
-		911BB2EDAC15554D1A40237D38270EA5 /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D1631B5463B3AB0EB70389E4A56702 /* WebViewJavascriptBridge-dummy.m */; };
-		96170201200902C8BDF45DE528D104CA /* RSWKCookieSyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D379AA3B87DF74BD6BF5D7C60E96D99B /* RSWKCookieSyncManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ACD6D2051C9C280056AC2C183C3C8FA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F700FB0AC8F4459DB2838C625956B /* Foundation.framework */; };
-		AD38B775140363787173F49BF66625F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3F700FB0AC8F4459DB2838C625956B /* Foundation.framework */; };
-		AD4165BF8B5C9BD6BCFFC524D2BC5BC6 /* Pods-RSAutoWebViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF02A6F5FBE854BB4C280FD33AA29032 /* Pods-RSAutoWebViewTests-dummy.m */; };
-		AF7EBAB93E9A4968D0309B28E4657E61 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 88480D359004C539C3BD7CB83CF152C3 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BA850EDFE2C36A6BB271A7229BE6F70B /* RSUWWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA75D642E746F78DFDD9C485E61106C /* RSUWWebViewProgress.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C199160C87D0E4F6890BE8E1163E8CA4 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18123C08E4534CFE460C69C3A8A8C74E /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C2F7DE96A8BD66D08CBD3E9BC2CF8F6F /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = B04EDC7F8E30415BF9DF9B94316382F3 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CDB88D560D6FB2B6C09381963268E1A9 /* RSAutoWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3807B2EC6A780DBAB1FB0CBADC5C87B1 /* RSAutoWebView-dummy.m */; };
-		DADA6E03B01B935012E95D47D34651BA /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = B506F04007B6E23E16D999DEE6E889AB /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F2036F06D069B8ED469C9CEEB8B96E74 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56349762A43EB331D4E95A13EF72474 /* QuartzCore.framework */; };
-		F48F0E487B1672E8F8643F2C676F652F /* RSWKCookieSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 476691B99D890FA710E0967A2FD95B57 /* RSWKCookieSyncManager.m */; };
-		FED92273D76ABDC86D6DFA76E3109AFF /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6D0B80A4451F99EBA8DB7B87A5598 /* SVProgressHUD.m */; };
+		0927F55C9441497B0DBDBFE0C1143445 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6538733E815F39A5C710D60309578468 /* SVProgressAnimatedView.m */; };
+		0B4C92F2929B37C7FA3C0CA4417B78F2 /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 88480D359004C539C3BD7CB83CF152C3 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DEE65394F104D4747CA77AA4C251D04 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BCE16CE3390103A0E73513B105ACB7 /* SVIndefiniteAnimatedView.m */; };
+		26CCD620531F1CE6644781281C51B789 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB7A8591C143E73133CCD266E9FD139 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3193948E712752A6D8FCE22B26F9C339 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203C8CD46D7A689425F3F03F26373CC0 /* QuartzCore.framework */; };
+		3313893EB92C5B04E307914CB3C7ED85 /* RSUWWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA75D642E746F78DFDD9C485E61106C /* RSUWWebViewProgress.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3894982EFD2EA6E399502585F16B96A1 /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = B04EDC7F8E30415BF9DF9B94316382F3 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		558330ABEE91D941D6561460E3887B85 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = B506F04007B6E23E16D999DEE6E889AB /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		66D39A74DD725C66ADC0533B2BC2256C /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B05A6F29C77ACEA9EDADA36D84FC0D /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AA56B7407AAD93E68E89966CCCACBA1 /* RSWKCookieSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 476691B99D890FA710E0967A2FD95B57 /* RSWKCookieSyncManager.m */; };
+		7C94CC1BBD57C32F5EA55570C260E77A /* RSAutoWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3807B2EC6A780DBAB1FB0CBADC5C87B1 /* RSAutoWebView-dummy.m */; };
+		83382373C444964E487031A23231FDD7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FF2B0C75368A5081D413470ADC3AAA /* ReplaceMe.m */; };
+		86B7AAC2347A56C5939EF6AC4EBB8675 /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D1631B5463B3AB0EB70389E4A56702 /* WebViewJavascriptBridge-dummy.m */; };
+		89229A646AC1AE674EC8A4BF47D73842 /* Pods-RSAutoWebViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF02A6F5FBE854BB4C280FD33AA29032 /* Pods-RSAutoWebViewTests-dummy.m */; };
+		8EC9F598B794D2CD160D1F8E1E874BB2 /* RSAutoWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A0928F8BB6DF7BFD014683F17DACB /* RSAutoWebView.m */; };
+		93CE5F3C7F6C9C984BEA5ADBFBAFFCBE /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D47F594E1FD27EAEDF76FC791C3119F /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C3709C61D934203E406432507123F0F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF6D0B80A4451F99EBA8DB7B87A5598 /* SVProgressHUD.m */; };
+		9CA5DA1FDA237157DF33C145EB37E878 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C425B4E4DEED0F730DA3B537061857 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A13069EDDAC32E6AE6311C6E63D7B2EC /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F3444A8A84D34D679EA7AF98DF64C8 /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A39DED939FB792EC04C59FB69C125F23 /* RSUWWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7B911396356DC7150358972C2FF0EC /* RSUWWebViewProgress.m */; };
+		ABA47628403147D6A10D8CE84979CC4E /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A879EE72C9B159B657B5303D03CE02 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF666552E958B29CA9AA29EE76780A7F /* RSAutoWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7781ED118762A5B71CF8BF0B0C8B9390 /* RSAutoWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA5ADB94588347AF3A30925C8FF2E12A /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 18123C08E4534CFE460C69C3A8A8C74E /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BF6F25094D98B03410C583A11020ADD2 /* RSWKCookieSyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D379AA3B87DF74BD6BF5D7C60E96D99B /* RSWKCookieSyncManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C797BBDF958323021EFDBF94E289320A /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8276A3E26A67EEEA9CBA913EA0C9D85D /* SVProgressHUD-dummy.m */; };
+		D0C0716816E33D47482DFC4D1B797ED3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CC86A4EFBDBCD1EAFD1E0C6126A77C /* UIKit.framework */; };
+		D46C9D6385B0B7A2AFD6D36184B0C473 /* Pods-RSAutoWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0575388A16C3CB7B97827E58ACE70CE /* Pods-RSAutoWebView-dummy.m */; };
+		D690D6597A8C59DB6DD0AD5CA1E49ABA /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3618C5333BC29928286A00C6C0AEDD22 /* SVRadialGradientLayer.m */; };
+		D7CF149ECC86615EEA98C30B763F750D /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D567D7EB5AA1DD9949886989ED04C5D4 /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E6EE466F2FD2C624BBE444F6528E0CD9 /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = A86BB4320E7FC543D52986A8F67BFA48 /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1C8FEDBDE0670A3A08F929A68C08578 /* Pods-RSAutoWebViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B9281D92ACE53EDC4F25B0D120729 /* Pods-RSAutoWebViewUITests-dummy.m */; };
+		F3606AF2BA78EBA58F9EED80C2DB76CE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F0CD18EB4063B76E9A864A145B2ECE /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		297945A20D53532FB6F322C03D1323FD /* PBXContainerItemProxy */ = {
+		595DE01210578FB83BB07B0854E9287E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B0EF155769A2289F5A0868B00FE8F85F;
+			remoteGlobalIDString = 7ED644A4BACCDD8CADD10B2AAFA9EAF8;
 			remoteInfo = SVProgressHUD;
 		};
-		E16FE3C94146DDD6C57EA4670B1DADE4 /* PBXContainerItemProxy */ = {
+		7E05DAC23920EE381EA18BF536015479 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 90766D9AC7CCFF22792543B9928C40E8;
-			remoteInfo = RSAutoWebView;
+			remoteGlobalIDString = 4303BCAAF97A08F65ECD12D2FAF447BB;
+			remoteInfo = "Pods-RSAutoWebView";
 		};
-		E7CD9A714E3C16E4DFAB23C8397E71EA /* PBXContainerItemProxy */ = {
+		87A264B5843DE05097A77E5C2F99AAF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7B6EAD5C2515048F1FA06DBEBED1D19A;
+			remoteGlobalIDString = 4303BCAAF97A08F65ECD12D2FAF447BB;
+			remoteInfo = "Pods-RSAutoWebView";
+		};
+		BF94ABB5B7C8CBEE290F3A790D7D6E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB84AEED8C174781D99AAC2FC92178A;
 			remoteInfo = WebViewJavascriptBridge;
+		};
+		F312776EC082879B79BD0980E59D6642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E32750540451A505758722D2FE913015;
+			remoteInfo = RSAutoWebView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -79,6 +87,7 @@
 		18123C08E4534CFE460C69C3A8A8C74E /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		18F1A78B1CA8A9B516292901FD7D6A7B /* Pods-RSAutoWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSAutoWebView.debug.xcconfig"; sourceTree = "<group>"; };
 		1C2AE4800A4B638CDD99596580688A58 /* Pods-RSAutoWebViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSAutoWebViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		203C8CD46D7A689425F3F03F26373CC0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		24B05A6F29C77ACEA9EDADA36D84FC0D /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		3223608AA6002C695E8456190DE1AC40 /* Pods-RSAutoWebViewTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSAutoWebViewTests-resources.sh"; sourceTree = "<group>"; };
 		331F7715794F675EFF4650D8A72297F1 /* WebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.xcconfig; sourceTree = "<group>"; };
@@ -104,13 +113,13 @@
 		7652A0CDB3C56C213182B5FE249597F3 /* Pods-RSAutoWebViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSAutoWebViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7781ED118762A5B71CF8BF0B0C8B9390 /* RSAutoWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSAutoWebView.h; path = RSAutoWebView/Classes/RSAutoWebView.h; sourceTree = "<group>"; };
 		78C425B4E4DEED0F730DA3B537061857 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		78CC86A4EFBDBCD1EAFD1E0C6126A77C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		78F3444A8A84D34D679EA7AF98DF64C8 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
 		81ECF82C4E7B11E7B80B32C713668CBD /* Pods-RSAutoWebViewTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSAutoWebViewTests-frameworks.sh"; sourceTree = "<group>"; };
 		8276A3E26A67EEEA9CBA913EA0C9D85D /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		88480D359004C539C3BD7CB83CF152C3 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
 		8861158FF03C78F1EFBE8E4CF191BA3A /* Pods-RSAutoWebViewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSAutoWebViewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8AC07534A3C675EC73CE053B4F28BA13 /* Pods-RSAutoWebViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSAutoWebViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C3F700FB0AC8F4459DB2838C625956B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8CB7A8591C143E73133CCD266E9FD139 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		926B9281D92ACE53EDC4F25B0D120729 /* Pods-RSAutoWebViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSAutoWebViewUITests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -121,14 +130,12 @@
 		A642F8F9FABC790E3F9088577072844F /* Pods-RSAutoWebViewUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSAutoWebViewUITests-frameworks.sh"; sourceTree = "<group>"; };
 		A86BB4320E7FC543D52986A8F67BFA48 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
 		B04EDC7F8E30415BF9DF9B94316382F3 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		B4F38C046E865207532B3778A25B7031 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		B0F0CD18EB4063B76E9A864A145B2ECE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		B506F04007B6E23E16D999DEE6E889AB /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
 		B87F3D9FB49C4426F58B322C62D04B48 /* Pods-RSAutoWebView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSAutoWebView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CC854E18750344C3AF12CE7C5DAC12E4 /* libPods-RSAutoWebViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RSAutoWebViewTests.a"; path = "libPods-RSAutoWebViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CECADDED1C03133B656B31212FA6561D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CF02A6F5FBE854BB4C280FD33AA29032 /* Pods-RSAutoWebViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSAutoWebViewTests-dummy.m"; sourceTree = "<group>"; };
 		D379AA3B87DF74BD6BF5D7C60E96D99B /* RSWKCookieSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSWKCookieSyncManager.h; path = RSAutoWebView/Classes/RSWKCookieSyncManager.h; sourceTree = "<group>"; };
-		D56349762A43EB331D4E95A13EF72474 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D567D7EB5AA1DD9949886989ED04C5D4 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		DCB6525FAE12D4F409346D6AD1D76F8E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		DDF6D0B80A4451F99EBA8DB7B87A5598 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
@@ -140,64 +147,58 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BB45F7B77E8950FD105E6A95E5A572E /* Frameworks */ = {
+		19D1D946BDAFE80B0263A89F6656D0A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407E785D857EC28A8E7976A3861A7575 /* Foundation.framework in Frameworks */,
-				F2036F06D069B8ED469C9CEEB8B96E74 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44C863830A514B775C5DFF78E9E35B5C /* Frameworks */ = {
+		23547FB2291307288F424CBB8CB2914D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D470C401F93B7CC9487DB02FED41DF /* Foundation.framework in Frameworks */,
-				36818CF8CE75F7487BB12205F0E2B3B6 /* UIKit.framework in Frameworks */,
-				6D52DEC8676C80E643746FA7216F94FA /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63BF7F82D96BD6A2A27312871F593FFC /* Frameworks */ = {
+		3BA773DE00565CA778F6C4CCAEADC696 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD38B775140363787173F49BF66625F5 /* Foundation.framework in Frameworks */,
+				3193948E712752A6D8FCE22B26F9C339 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF412AF9F76FC0544AC2B6679289A0E9 /* Frameworks */ = {
+		3FE795D94293016DD6991EF783D11EDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F6382531C8BCEDF012A6AC023E626EB /* Foundation.framework in Frameworks */,
+				D0C0716816E33D47482DFC4D1B797ED3 /* UIKit.framework in Frameworks */,
+				F3606AF2BA78EBA58F9EED80C2DB76CE /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2B6880DBD916E14FF6EC4D1B98F940C /* Frameworks */ = {
+		911FB6927F63078AD33DB018B8B35696 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD6D2051C9C280056AC2C183C3C8FA7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD2ACC007A9E687BB329E8DA5F7A1710 /* Frameworks */ = {
+		9E21E300C64E8DFDE749E15F1DBC898B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4994DD74990541D1DA07B4EEBAC69972 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3210FAE750EF319B2D1B1D9ACA873E38 /* iOS */,
+				D2B887693234360166C0CA2222BD4332 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -233,17 +234,6 @@
 			);
 			name = RSAutoWebView;
 			path = RSAutoWebView;
-			sourceTree = "<group>";
-		};
-		3210FAE750EF319B2D1B1D9ACA873E38 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8C3F700FB0AC8F4459DB2838C625956B /* Foundation.framework */,
-				D56349762A43EB331D4E95A13EF72474 /* QuartzCore.framework */,
-				CECADDED1C03133B656B31212FA6561D /* UIKit.framework */,
-				B4F38C046E865207532B3778A25B7031 /* WebKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		4069ED605BB2DA06915D1B7654B234C3 /* Pods */ = {
@@ -326,7 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				4069ED605BB2DA06915D1B7654B234C3 /* Pods */,
 				EE279CD9E63E19AD3505DC1FAA94FB61 /* Products */,
 				4B8B6F91ED58D0A6EF6D6F9215E199B6 /* Targets Support Files */,
@@ -363,6 +353,16 @@
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
+		D2B887693234360166C0CA2222BD4332 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				203C8CD46D7A689425F3F03F26373CC0 /* QuartzCore.framework */,
+				78CC86A4EFBDBCD1EAFD1E0C6126A77C /* UIKit.framework */,
+				B0F0CD18EB4063B76E9A864A145B2ECE /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		E19B31E6E26CBF23209481EF9366F075 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,80 +397,101 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		09DC0EAC1A62F2317D665207791F903A /* Headers */ = {
+		79A766C51C25E7E4B24E7A0EC3E243BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D237A0D0D13ADCA920CC69816B778E9 /* RSAutoWebView.h in Headers */,
-				BA850EDFE2C36A6BB271A7229BE6F70B /* RSUWWebViewProgress.h in Headers */,
-				96170201200902C8BDF45DE528D104CA /* RSWKCookieSyncManager.h in Headers */,
+				AF666552E958B29CA9AA29EE76780A7F /* RSAutoWebView.h in Headers */,
+				3313893EB92C5B04E307914CB3C7ED85 /* RSUWWebViewProgress.h in Headers */,
+				BF6F25094D98B03410C583A11020ADD2 /* RSWKCookieSyncManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		373D6EE67CCBC3C6B0BE7D0EB45C0821 /* Headers */ = {
+		C630BD3D6D67CE2BC40172450F572D6D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F41CA93124B4556B2C9274C4F0A99D8 /* WebViewJavascriptBridge.h in Headers */,
-				472CB7757E99AC6E9DD5002A609DCA68 /* WebViewJavascriptBridge_JS.h in Headers */,
-				AF7EBAB93E9A4968D0309B28E4657E61 /* WebViewJavascriptBridgeBase.h in Headers */,
-				C2F7DE96A8BD66D08CBD3E9BC2CF8F6F /* WKWebViewJavascriptBridge.h in Headers */,
+				93CE5F3C7F6C9C984BEA5ADBFBAFFCBE /* WebViewJavascriptBridge.h in Headers */,
+				E6EE466F2FD2C624BBE444F6528E0CD9 /* WebViewJavascriptBridge_JS.h in Headers */,
+				0B4C92F2929B37C7FA3C0CA4417B78F2 /* WebViewJavascriptBridgeBase.h in Headers */,
+				3894982EFD2EA6E399502585F16B96A1 /* WKWebViewJavascriptBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		570748D52733E50EB79AA112A4BDC068 /* Headers */ = {
+		F4977B2303298923809455ED93761EBE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				056B131A9523C15BEA50D8322A421E28 /* SVIndefiniteAnimatedView.h in Headers */,
-				1CC5C4F4CAFB598156DEF1AD879B1C84 /* SVProgressAnimatedView.h in Headers */,
-				328F5F6DF6C606F6D9C0107A3C0CF70B /* SVProgressHUD.h in Headers */,
-				66F1DCEC61BAA83B7B229E237CCD2990 /* SVRadialGradientLayer.h in Headers */,
+				ABA47628403147D6A10D8CE84979CC4E /* SVIndefiniteAnimatedView.h in Headers */,
+				66D39A74DD725C66ADC0533B2BC2256C /* SVProgressAnimatedView.h in Headers */,
+				9CA5DA1FDA237157DF33C145EB37E878 /* SVProgressHUD.h in Headers */,
+				26CCD620531F1CE6644781281C51B789 /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		53A31103947D548A2E25BFB911A249B3 /* Pods-RSAutoWebViewUITests */ = {
+		4303BCAAF97A08F65ECD12D2FAF447BB /* Pods-RSAutoWebView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEF84574B170747DD9AD88DB09DB0AF2 /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebViewUITests" */;
+			buildConfigurationList = A84E2CDF4271FBC16E35F1444063A8B5 /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebView" */;
 			buildPhases = (
-				3B41DD68C79F2120B035BB9A73B99BA1 /* Sources */,
-				DD2ACC007A9E687BB329E8DA5F7A1710 /* Frameworks */,
+				058600F4F6C477DFA01FDB141B9B0C83 /* Sources */,
+				19D1D946BDAFE80B0263A89F6656D0A1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				790AB5E6FD5A9E610894ADAC8388A21F /* PBXTargetDependency */,
+				FFE0C66C0B3F91A9FF65A4496164C351 /* PBXTargetDependency */,
+				49C0384366FC5941D2EA2BCC129D3A31 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSAutoWebView";
+			productName = "Pods-RSAutoWebView";
+			productReference = 4C9D25AB5A524952EC18AF166A841D9D /* libPods-RSAutoWebView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		704B16F452EB268445BFF56966116BBB /* Pods-RSAutoWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C3939CD0D7F013D14D3F6DB353A49B /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebViewUITests" */;
+			buildPhases = (
+				74B3F7E10599D15E4CBE288670193F64 /* Sources */,
+				23547FB2291307288F424CBB8CB2914D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B657970861E4938065C3678647A74A3C /* PBXTargetDependency */,
 			);
 			name = "Pods-RSAutoWebViewUITests";
 			productName = "Pods-RSAutoWebViewUITests";
 			productReference = F6DF12BA6A7F68D3CA1EA9DE5A6EDEF6 /* libPods-RSAutoWebViewUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6A9996D6C09CDD76357AA859EEEEFB4B /* Pods-RSAutoWebViewTests */ = {
+		7ED644A4BACCDD8CADD10B2AAFA9EAF8 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91832BC159B248776D1ED1263F3109FA /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebViewTests" */;
+			buildConfigurationList = B8EC44A43BE44370A44E02D2983E4730 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				C1479C47D547617290D356AFA5F9B751 /* Sources */,
-				D2B6880DBD916E14FF6EC4D1B98F940C /* Frameworks */,
+				8C34ED882753861CF0525FE7F95CF227 /* Sources */,
+				3BA773DE00565CA778F6C4CCAEADC696 /* Frameworks */,
+				F4977B2303298923809455ED93761EBE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-RSAutoWebViewTests";
-			productName = "Pods-RSAutoWebViewTests";
-			productReference = CC854E18750344C3AF12CE7C5DAC12E4 /* libPods-RSAutoWebViewTests.a */;
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 5A69AA21FA4D6F6E033D36DEDF353924 /* libSVProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		7B6EAD5C2515048F1FA06DBEBED1D19A /* WebViewJavascriptBridge */ = {
+		9CB84AEED8C174781D99AAC2FC92178A /* WebViewJavascriptBridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90853BE637F019E203DF31774A3FA323 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */;
+			buildConfigurationList = E451A50804E3FA20CC1B0D340B942B38 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */;
 			buildPhases = (
-				E81DD2FEFFF42E240EA3D3B57804FD15 /* Sources */,
-				44C863830A514B775C5DFF78E9E35B5C /* Frameworks */,
-				373D6EE67CCBC3C6B0BE7D0EB45C0821 /* Headers */,
+				C609B1CB5068EDD415DD22277B4B6C42 /* Sources */,
+				3FE795D94293016DD6991EF783D11EDB /* Frameworks */,
+				C630BD3D6D67CE2BC40172450F572D6D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -481,13 +502,30 @@
 			productReference = 9A23F48AF77F46D2B5016AE4D10B8905 /* libWebViewJavascriptBridge.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		90766D9AC7CCFF22792543B9928C40E8 /* RSAutoWebView */ = {
+		DBE91F595EBB2D73DC3E0C8947093EF5 /* Pods-RSAutoWebViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03503205F6865EE55E01512445BFEABF /* Build configuration list for PBXNativeTarget "RSAutoWebView" */;
+			buildConfigurationList = 07E336EB7EA3014C885BD0E792A42ECB /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebViewTests" */;
 			buildPhases = (
-				3432BE383153333EE73EF955DCB8E0EC /* Sources */,
-				63BF7F82D96BD6A2A27312871F593FFC /* Frameworks */,
-				09DC0EAC1A62F2317D665207791F903A /* Headers */,
+				38A1518B5AB8C12E5053362B6A71E21C /* Sources */,
+				9E21E300C64E8DFDE749E15F1DBC898B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3D68DA0DD77FFDC90E580551A43D93 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSAutoWebViewTests";
+			productName = "Pods-RSAutoWebViewTests";
+			productReference = CC854E18750344C3AF12CE7C5DAC12E4 /* libPods-RSAutoWebViewTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E32750540451A505758722D2FE913015 /* RSAutoWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48EE04E750AB7281CB0F81FAEDF6596 /* Build configuration list for PBXNativeTarget "RSAutoWebView" */;
+			buildPhases = (
+				48C1B12C7A6DC5CA4D36530424EEC739 /* Sources */,
+				911FB6927F63078AD33DB018B8B35696 /* Frameworks */,
+				79A766C51C25E7E4B24E7A0EC3E243BD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -496,42 +534,6 @@
 			name = RSAutoWebView;
 			productName = RSAutoWebView;
 			productReference = 96FF47D1372AD77B32948059C032158C /* libRSAutoWebView.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		99B59F109A1DB92ED34DCDFD85CE7653 /* Pods-RSAutoWebView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D64EFBB328597B5AD7CA0CCE7EEA3ED /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebView" */;
-			buildPhases = (
-				1AC83E3D71F4E794A634EC847297DB3B /* Sources */,
-				AF412AF9F76FC0544AC2B6679289A0E9 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				245E56F055B505BDCDF21031CFC7BB3E /* PBXTargetDependency */,
-				7C77814DFDCB6CC9ED6586DBCFA99E25 /* PBXTargetDependency */,
-				5294EFA39A9C7D2216CA65C2483D0E79 /* PBXTargetDependency */,
-			);
-			name = "Pods-RSAutoWebView";
-			productName = "Pods-RSAutoWebView";
-			productReference = 4C9D25AB5A524952EC18AF166A841D9D /* libPods-RSAutoWebView.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B0EF155769A2289F5A0868B00FE8F85F /* SVProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F307A504CA2E9364CC923A18F248320 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
-			buildPhases = (
-				700323DF873A912900A555108CEA376A /* Sources */,
-				0BB45F7B77E8950FD105E6A95E5A572E /* Frameworks */,
-				570748D52733E50EB79AA112A4BDC068 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SVProgressHUD;
-			productName = SVProgressHUD;
-			productReference = 5A69AA21FA4D6F6E033D36DEDF353924 /* libSVProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -555,102 +557,114 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99B59F109A1DB92ED34DCDFD85CE7653 /* Pods-RSAutoWebView */,
-				6A9996D6C09CDD76357AA859EEEEFB4B /* Pods-RSAutoWebViewTests */,
-				53A31103947D548A2E25BFB911A249B3 /* Pods-RSAutoWebViewUITests */,
-				90766D9AC7CCFF22792543B9928C40E8 /* RSAutoWebView */,
-				B0EF155769A2289F5A0868B00FE8F85F /* SVProgressHUD */,
-				7B6EAD5C2515048F1FA06DBEBED1D19A /* WebViewJavascriptBridge */,
+				4303BCAAF97A08F65ECD12D2FAF447BB /* Pods-RSAutoWebView */,
+				DBE91F595EBB2D73DC3E0C8947093EF5 /* Pods-RSAutoWebViewTests */,
+				704B16F452EB268445BFF56966116BBB /* Pods-RSAutoWebViewUITests */,
+				E32750540451A505758722D2FE913015 /* RSAutoWebView */,
+				7ED644A4BACCDD8CADD10B2AAFA9EAF8 /* SVProgressHUD */,
+				9CB84AEED8C174781D99AAC2FC92178A /* WebViewJavascriptBridge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1AC83E3D71F4E794A634EC847297DB3B /* Sources */ = {
+		058600F4F6C477DFA01FDB141B9B0C83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A63437B0E7ED84859C7EB3EEB8E0128 /* Pods-RSAutoWebView-dummy.m in Sources */,
+				D46C9D6385B0B7A2AFD6D36184B0C473 /* Pods-RSAutoWebView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3432BE383153333EE73EF955DCB8E0EC /* Sources */ = {
+		38A1518B5AB8C12E5053362B6A71E21C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3780D3073BB6B356874CB4CEA787B06F /* ReplaceMe.m in Sources */,
-				CDB88D560D6FB2B6C09381963268E1A9 /* RSAutoWebView-dummy.m in Sources */,
-				1DFEDCFC9997B4FAD77B759B40374C83 /* RSAutoWebView.m in Sources */,
-				6EE7C80C0BE884402FB1B10F9FEEC519 /* RSUWWebViewProgress.m in Sources */,
-				F48F0E487B1672E8F8643F2C676F652F /* RSWKCookieSyncManager.m in Sources */,
+				89229A646AC1AE674EC8A4BF47D73842 /* Pods-RSAutoWebViewTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B41DD68C79F2120B035BB9A73B99BA1 /* Sources */ = {
+		48C1B12C7A6DC5CA4D36530424EEC739 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AE01B7910A92D7E81801D3AEF1F586 /* Pods-RSAutoWebViewUITests-dummy.m in Sources */,
+				83382373C444964E487031A23231FDD7 /* ReplaceMe.m in Sources */,
+				7C94CC1BBD57C32F5EA55570C260E77A /* RSAutoWebView-dummy.m in Sources */,
+				8EC9F598B794D2CD160D1F8E1E874BB2 /* RSAutoWebView.m in Sources */,
+				A39DED939FB792EC04C59FB69C125F23 /* RSUWWebViewProgress.m in Sources */,
+				7AA56B7407AAD93E68E89966CCCACBA1 /* RSWKCookieSyncManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		700323DF873A912900A555108CEA376A /* Sources */ = {
+		74B3F7E10599D15E4CBE288670193F64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1262689211193DCA4EE7C6F1883433 /* SVIndefiniteAnimatedView.m in Sources */,
-				2D9A0593405804EDE8E50CC37F31B6F3 /* SVProgressAnimatedView.m in Sources */,
-				776F6452C1737E04D4ABF7C7E691597A /* SVProgressHUD-dummy.m in Sources */,
-				FED92273D76ABDC86D6DFA76E3109AFF /* SVProgressHUD.m in Sources */,
-				5679048B628DCE1FE867BDD72BAEEBEE /* SVRadialGradientLayer.m in Sources */,
+				F1C8FEDBDE0670A3A08F929A68C08578 /* Pods-RSAutoWebViewUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1479C47D547617290D356AFA5F9B751 /* Sources */ = {
+		8C34ED882753861CF0525FE7F95CF227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD4165BF8B5C9BD6BCFFC524D2BC5BC6 /* Pods-RSAutoWebViewTests-dummy.m in Sources */,
+				0DEE65394F104D4747CA77AA4C251D04 /* SVIndefiniteAnimatedView.m in Sources */,
+				0927F55C9441497B0DBDBFE0C1143445 /* SVProgressAnimatedView.m in Sources */,
+				C797BBDF958323021EFDBF94E289320A /* SVProgressHUD-dummy.m in Sources */,
+				9C3709C61D934203E406432507123F0F /* SVProgressHUD.m in Sources */,
+				D690D6597A8C59DB6DD0AD5CA1E49ABA /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E81DD2FEFFF42E240EA3D3B57804FD15 /* Sources */ = {
+		C609B1CB5068EDD415DD22277B4B6C42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				911BB2EDAC15554D1A40237D38270EA5 /* WebViewJavascriptBridge-dummy.m in Sources */,
-				0DA5BE95EBBAEC2DFACD4571F3B146E6 /* WebViewJavascriptBridge.m in Sources */,
-				DADA6E03B01B935012E95D47D34651BA /* WebViewJavascriptBridge_JS.m in Sources */,
-				6B2BE38469BBCA69A0258E9513E475BC /* WebViewJavascriptBridgeBase.m in Sources */,
-				C199160C87D0E4F6890BE8E1163E8CA4 /* WKWebViewJavascriptBridge.m in Sources */,
+				86B7AAC2347A56C5939EF6AC4EBB8675 /* WebViewJavascriptBridge-dummy.m in Sources */,
+				D7CF149ECC86615EEA98C30B763F750D /* WebViewJavascriptBridge.m in Sources */,
+				558330ABEE91D941D6561460E3887B85 /* WebViewJavascriptBridge_JS.m in Sources */,
+				A13069EDDAC32E6AE6311C6E63D7B2EC /* WebViewJavascriptBridgeBase.m in Sources */,
+				BA5ADB94588347AF3A30925C8FF2E12A /* WKWebViewJavascriptBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		245E56F055B505BDCDF21031CFC7BB3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RSAutoWebView;
-			target = 90766D9AC7CCFF22792543B9928C40E8 /* RSAutoWebView */;
-			targetProxy = E16FE3C94146DDD6C57EA4670B1DADE4 /* PBXContainerItemProxy */;
-		};
-		5294EFA39A9C7D2216CA65C2483D0E79 /* PBXTargetDependency */ = {
+		49C0384366FC5941D2EA2BCC129D3A31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WebViewJavascriptBridge;
-			target = 7B6EAD5C2515048F1FA06DBEBED1D19A /* WebViewJavascriptBridge */;
-			targetProxy = E7CD9A714E3C16E4DFAB23C8397E71EA /* PBXContainerItemProxy */;
+			target = 9CB84AEED8C174781D99AAC2FC92178A /* WebViewJavascriptBridge */;
+			targetProxy = BF94ABB5B7C8CBEE290F3A790D7D6E38 /* PBXContainerItemProxy */;
 		};
-		7C77814DFDCB6CC9ED6586DBCFA99E25 /* PBXTargetDependency */ = {
+		790AB5E6FD5A9E610894ADAC8388A21F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSAutoWebView;
+			target = E32750540451A505758722D2FE913015 /* RSAutoWebView */;
+			targetProxy = F312776EC082879B79BD0980E59D6642 /* PBXContainerItemProxy */;
+		};
+		B657970861E4938065C3678647A74A3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RSAutoWebView";
+			target = 4303BCAAF97A08F65ECD12D2FAF447BB /* Pods-RSAutoWebView */;
+			targetProxy = 7E05DAC23920EE381EA18BF536015479 /* PBXContainerItemProxy */;
+		};
+		FF3D68DA0DD77FFDC90E580551A43D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RSAutoWebView";
+			target = 4303BCAAF97A08F65ECD12D2FAF447BB /* Pods-RSAutoWebView */;
+			targetProxy = 87A264B5843DE05097A77E5C2F99AAF6 /* PBXContainerItemProxy */;
+		};
+		FFE0C66C0B3F91A9FF65A4496164C351 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
-			target = B0EF155769A2289F5A0868B00FE8F85F /* SVProgressHUD */;
-			targetProxy = 297945A20D53532FB6F322C03D1323FD /* PBXContainerItemProxy */;
+			target = 7ED644A4BACCDD8CADD10B2AAFA9EAF8 /* SVProgressHUD */;
+			targetProxy = 595DE01210578FB83BB07B0854E9287E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D2C9456EDA9FF3E316A449F8CFB6330 /* Debug */ = {
+		1DF5D40E51FFDE3B54DD4666E2CFD94E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A3881916160006ED8D3A8936FC2F9DFD /* RSAutoWebView.xcconfig */;
 			buildSettings = {
@@ -663,130 +677,8 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1DDE446FCAD9A5B9CC713676A9337095 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1482AF1B218C83C8D87D2DB62043BCD5 /* Pods-RSAutoWebViewUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		40E54740B96CAC5F865CFCACF8A3C3B2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 331F7715794F675EFF4650D8A72297F1 /* WebViewJavascriptBridge.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		44644E9D386BCD2E4D2C56533F71EF30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BA7446D3296CBF6E0C583F0F6F1A551 /* Pods-RSAutoWebView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5169810B3E96A8EB2A9BFEA16BD58DE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18F1A78B1CA8A9B516292901FD7D6A7B /* Pods-RSAutoWebView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5E4DE4113FD6A1986F79DA813FF8B03F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7652A0CDB3C56C213182B5FE249597F3 /* Pods-RSAutoWebViewUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		689038BB22F3B2EBBCDD33357C8DC066 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3881916160006ED8D3A8936FC2F9DFD /* RSAutoWebView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/RSAutoWebView/RSAutoWebView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RSAutoWebView;
+				PRODUCT_NAME = RSAutoWebView;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -796,92 +688,7 @@
 			};
 			name = Release;
 		};
-		72A43AFE08F324C80BA88404BA3F8BA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3375EE3C6712551C719710E3E5532B1B /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		742FA260D62370062B8F57F2B521316D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65148B2B3024EF21C2F57A80C43C0577 /* Pods-RSAutoWebViewTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		75A5C972D2D51DCBBCE89D46B50813F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 331F7715794F675EFF4650D8A72297F1 /* WebViewJavascriptBridge.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B84CFDA71D14BAED2905DACDD0426A37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3375EE3C6712551C719710E3E5532B1B /* SVProgressHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -913,6 +720,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -937,14 +745,259 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+		24E8ECAD6052BDE969A88C684A7D297C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1482AF1B218C83C8D87D2DB62043BCD5 /* Pods-RSAutoWebViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526D0E0FF78398DDCFA137BC032E24FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3881916160006ED8D3A8936FC2F9DFD /* RSAutoWebView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RSAutoWebView/RSAutoWebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RSAutoWebView;
+				PRODUCT_NAME = RSAutoWebView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B848090F39D79FC744E8A47ACC50AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA7446D3296CBF6E0C583F0F6F1A551 /* Pods-RSAutoWebView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73D7FE1B3FD0EC103D62DC831BE6ADCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7652A0CDB3C56C213182B5FE249597F3 /* Pods-RSAutoWebViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88574E44190422C47AEE1C7054F92A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331F7715794F675EFF4650D8A72297F1 /* WebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A6D9B66AE997C2141347B6691388E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65148B2B3024EF21C2F57A80C43C0577 /* Pods-RSAutoWebViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DAB20B92018F05E11B91AA4B273BCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3375EE3C6712551C719710E3E5532B1B /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5E189D17D165CB479A588F710F77E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331F7715794F675EFF4650D8A72297F1 /* WebViewJavascriptBridge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44F71572D9B4067F87F3F86FFBCF5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40484066EA158E816AD821C690AC7D35 /* Pods-RSAutoWebViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBDCB74BE29D23C2352E127372915E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3375EE3C6712551C719710E3E5532B1B /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E87305DFA976F078546DFD9190689278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F1A78B1CA8A9B516292901FD7D6A7B /* Pods-RSAutoWebView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -976,6 +1029,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -996,41 +1050,19 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		EFFDAA316FE8335F121E1866844AF9DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40484066EA158E816AD821C690AC7D35 /* Pods-RSAutoWebViewTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03503205F6865EE55E01512445BFEABF /* Build configuration list for PBXNativeTarget "RSAutoWebView" */ = {
+		07E336EB7EA3014C885BD0E792A42ECB /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D2C9456EDA9FF3E316A449F8CFB6330 /* Debug */,
-				689038BB22F3B2EBBCDD33357C8DC066 /* Release */,
+				8A6D9B66AE997C2141347B6691388E37 /* Debug */,
+				C44F71572D9B4067F87F3F86FFBCF5C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1038,53 +1070,53 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
-				DA03565BE765DB55C6448FB363A44481 /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F307A504CA2E9364CC923A18F248320 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+		85C3939CD0D7F013D14D3F6DB353A49B /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B84CFDA71D14BAED2905DACDD0426A37 /* Debug */,
-				72A43AFE08F324C80BA88404BA3F8BA7 /* Release */,
+				73D7FE1B3FD0EC103D62DC831BE6ADCA /* Debug */,
+				24E8ECAD6052BDE969A88C684A7D297C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D64EFBB328597B5AD7CA0CCE7EEA3ED /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebView" */ = {
+		A48EE04E750AB7281CB0F81FAEDF6596 /* Build configuration list for PBXNativeTarget "RSAutoWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5169810B3E96A8EB2A9BFEA16BD58DE5 /* Debug */,
-				44644E9D386BCD2E4D2C56533F71EF30 /* Release */,
+				526D0E0FF78398DDCFA137BC032E24FC /* Debug */,
+				1DF5D40E51FFDE3B54DD4666E2CFD94E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90853BE637F019E203DF31774A3FA323 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */ = {
+		A84E2CDF4271FBC16E35F1444063A8B5 /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40E54740B96CAC5F865CFCACF8A3C3B2 /* Debug */,
-				75A5C972D2D51DCBBCE89D46B50813F7 /* Release */,
+				E87305DFA976F078546DFD9190689278 /* Debug */,
+				6B848090F39D79FC744E8A47ACC50AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91832BC159B248776D1ED1263F3109FA /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebViewTests" */ = {
+		B8EC44A43BE44370A44E02D2983E4730 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				742FA260D62370062B8F57F2B521316D /* Debug */,
-				EFFDAA316FE8335F121E1866844AF9DA /* Release */,
+				CBDCB74BE29D23C2352E127372915E63 /* Debug */,
+				9DAB20B92018F05E11B91AA4B273BCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEF84574B170747DD9AD88DB09DB0AF2 /* Build configuration list for PBXNativeTarget "Pods-RSAutoWebViewUITests" */ = {
+		E451A50804E3FA20CC1B0D340B942B38 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E4DE4113FD6A1986F79DA813FF8B03F /* Debug */,
-				1DDE446FCAD9A5B9CC713676A9337095 /* Release */,
+				88574E44190422C47AEE1C7054F92A26 /* Debug */,
+				A5E189D17D165CB479A588F710F77E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
