@@ -23,11 +23,10 @@ Package function:
 
 ## 🎨 What does the test UI look like?
 
-![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6be2f6ce?w=358&h=704&f=png&s=57294)
-AutoWebView Load Page
-
-![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6c2d7ea0?w=358&h=704&f=png&s=37136)
-Clear Cache Page
+|Function list page |AutoWebView Load Page |VAS · Sonic Load Page|Clear Cache Page|
+| ------------- | ------------- | ------------- | ------------- |
+| ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/42013978.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/19238244.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/91374628.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/10682727.jpg) |
+|Created by Main.storyboard | Auto-adapted AutoWebView Framework | Tencent's Seconds WebView Framework | Clear Cache Operations |
 
 ## 🚀 Advantage
 * 1. Less documents, code concise
