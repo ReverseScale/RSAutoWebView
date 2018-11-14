@@ -20,10 +20,10 @@
 
 ## 🎨 测试 UI 样式
 
-|AutoWebView 加载页 |VAS·Sonic 加载页|清除缓存页|
-| ------------- | ------------- | ------------- |
-| ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6be2f6ce?w=358&h=704&f=png&s=57294) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6bf0e219?w=358&h=704&f=png&s=195967) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6c2d7ea0?w=358&h=704&f=png&s=37136) | 
-| 自动适配的 AutoWebView 框架 | 腾讯的秒开 WebView 框架 | 清除缓存操作 |
+|功能列表页 |AutoWebView 加载页 |VAS·Sonic 加载页|清除缓存页|
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/42013978.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/19238244.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/91374628.jpg) | ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/10682727.jpg) |
+| 通过 Main.storyboard 创建 | 自动适配的 AutoWebView 框架 | 腾讯的秒开 WebView 框架 | 清除缓存操作 |
 
 ## 🚀 框架的优势
 * 1.文件少，代码简洁
