@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/badge/download-512K-brightgreen.svg
 ) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
-![](https://user-gold-cdn.xitu.io/2018/11/14/16710b787f1c30b2?w=728&h=120&f=png&s=30728)
+![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/42387706.jpg)
 
 [EN](https://github.com/ReverseScale/RSAutoWebView) | [中文](https://github.com/ReverseScale/RSAutoWebView/blob/master/README_zh.md)
 
