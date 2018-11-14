@@ -22,10 +22,12 @@ Package function:
 * No need to set up, without plug-ins, to create a base class Inheritance Management Global WebView page. *
 
 ## 🎨 What does the test UI look like?
-|Function list page |AutoWebView Load Page |VAS · Sonic Load Page|Clear Cache Page|
-| ------------- | ------------- | ------------- | ------------- |
-| ![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/14778326.jpg) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6be2f6ce?w=358&h=704&f=png&s=57294) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6bf0e219?w=358&h=704&f=png&s=195967) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6c2d7ea0?w=358&h=704&f=png&s=37136) |
-|Created by Main.storyboard | Auto-adapted AutoWebView Framework | Tencent's Seconds WebView Framework | Clear Cache Operations |
+
+![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6be2f6ce?w=358&h=704&f=png&s=57294)
+AutoWebView Load Page
+
+![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6c2d7ea0?w=358&h=704&f=png&s=37136)
+Clear Cache Page
 
 ## 🚀 Advantage
 * 1. Less documents, code concise
