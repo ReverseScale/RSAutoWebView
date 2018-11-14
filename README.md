@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/badge/download-512K-brightgreen.svg
 ) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
-![image](http://og1yl0w9z.bkt.clouddn.com/17-6-30/79072301.jpg)
+![](https://user-gold-cdn.xitu.io/2018/11/14/16710b787f1c30b2?w=728&h=120&f=png&s=30728)
 
 [EN](https://github.com/ReverseScale/RSAutoWebView) | [中文](https://github.com/ReverseScale/RSAutoWebView/blob/master/README_zh.md)
 
@@ -24,7 +24,7 @@ Package function:
 ## 🎨 What does the test UI look like?
 |1. List Page |2.AutoWebView Load Page |3.VAS · Sonic Load Page|4. Clear Cache Page|
 | ------------- | ------------- | ------------- | ------------- |
-| ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/89293925.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/32139069.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/57146684.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-15/90220090.jpg) |
+| ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b71ea5954?w=358&h=704&f=png&s=34598) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6be2f6ce?w=358&h=704&f=png&s=57294) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6bf0e219?w=358&h=704&f=png&s=195967) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6c2d7ea0?w=358&h=704&f=png&s=37136) |
 | Main.storyboard | Auto-adapted AutoWebView Framework | Tencent's Seconds WebView Framework | Clear Cache Operations |
 
 ## 🚀 Advantage
