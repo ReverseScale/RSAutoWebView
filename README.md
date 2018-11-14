@@ -22,10 +22,10 @@ Package function:
 * No need to set up, without plug-ins, to create a base class Inheritance Management Global WebView page. *
 
 ## 🎨 What does the test UI look like?
-|1. List Page |2.AutoWebView Load Page |3.VAS · Sonic Load Page|4. Clear Cache Page|
-| ------------- | ------------- | ------------- | ------------- |
-| ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b71ea5954?w=358&h=704&f=png&s=34598) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6be2f6ce?w=358&h=704&f=png&s=57294) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6bf0e219?w=358&h=704&f=png&s=195967) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6c2d7ea0?w=358&h=704&f=png&s=37136) |
-| Main.storyboard | Auto-adapted AutoWebView Framework | Tencent's Seconds WebView Framework | Clear Cache Operations |
+|AutoWebView Load Page |VAS · Sonic Load Page|Clear Cache Page|
+| ------------- | ------------- | ------------- |
+| ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6be2f6ce?w=358&h=704&f=png&s=57294) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6bf0e219?w=358&h=704&f=png&s=195967) | ![](https://user-gold-cdn.xitu.io/2018/3/15/16227c4b6c2d7ea0?w=358&h=704&f=png&s=37136) |
+| Auto-adapted AutoWebView Framework | Tencent's Seconds WebView Framework | Clear Cache Operations |
 
 ## 🚀 Advantage
 * 1. Less documents, code concise
