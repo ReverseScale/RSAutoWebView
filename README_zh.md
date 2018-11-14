@@ -169,7 +169,7 @@ pod install --verbose --no-repo-update
 #### 3.1 简介
 VasSonic 取名于索尼动画形象音速小子，是腾讯 QQ 会员 VAS 团队研发的一个轻量级的高性能的 Hybrid 框架，专注于提升页面首屏加载速度，完美支持静态直出页面和动态直出页面，兼容离线包等方案。目前 QQ 会员、QQ 购物、QQ 钱包、企鹅电竞等业务已经在使用，平均日均 PV 在 1.2 亿以上，并且这个数字还在快速增长。
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/37643772.jpg)
+![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/76617160.jpg)
 
 接入 VasSonic 后首次打开可以在初始化 APP 的时候并行请求页面资源，并且具备边加载边渲染的能力。非首次打开时，APP 可以快速加载上次打开动态缓存在本地的页面资源，然后动态刷新页面。腾讯手机 QQ 通过 VasSonic 框架使得页面首屏耗时平均低于 1S 以下。
 
