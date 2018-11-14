@@ -177,7 +177,7 @@ pod install --verbose --no-repo-update
 #### 3.1 Introduction
 VasSonic named after the Sony animated image sound speed kid, is Tencent QQ membership VAS team developed a lightweight high-performance Hybrid framework, focusing on improving the first page of the page loading speed, the perfect support for static straight out of the page and the dynamic straight out of the page, Compatible with offline packages and other programs. Currently QQ members, QQ shopping, QQ wallet, penguins and other businesses have been using e-sports, the average daily PV in more than 120 million, and this number is still rapidly growing.
 
-![](http://og1yl0w9z.bkt.clouddn.com/17-8-22/37643772.jpg)
+![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/76617160.jpg)
 
 The first time you access VasSonic, you can request the page resources in parallel while initializing your app and have the ability to load side-edges. When not opening for the first time, the app can quickly load the last time the page resource was dynamically cached in the local page, and then dynamically refresh the page. Tencent mobile QQ through the VasSonic framework makes the first page of the screen consumes less than 1S average time below.
 
